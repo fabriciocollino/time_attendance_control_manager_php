@@ -1,0 +1,3282 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ACSM\n"
+"POT-Creation-Date: 2013-04-19 01:09-0300\n"
+"PO-Revision-Date: 2013-04-19 09:37-0300\n"
+"Last-Translator: Diego Sucaria <diego.sucaria@avanetworks.com.ar>\n"
+"Language-Team:  <info@avanetworks.com.ar>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../../..\n"
+
+#: ../../../../acciones_acsm.php:9
+#: ../../../../codigo/includes/menu.inc.php:158
+msgid "Acciones del ACSM"
+msgstr "ACSM Actions"
+
+#: ../../../../acciones_acsm.php:16 ../../../../acciones_equipos.php:16
+#: ../../../../codigo/templates/alarma_mos.html.php:107
+#: ../../../../codigo/templates/alarma_mos.html.php:123
+#: ../../../../codigo/templates/dispositivo_mos.html.php:71
+#: ../../../../codigo/templates/dispositivo_mos.html.php:87
+#: ../../../../codigo/templates/equipo_mos.html.php:109
+#: ../../../../codigo/templates/equipo_mos.html.php:125
+#: ../../../../codigo/templates/equipo_mos.html.php:145
+#: ../../../../codigo/templates/persona_mos.html.php:167
+#: ../../../../codigo/templates/persona_mos.html.php:183
+#: ../../../../codigo/templates/persona_mos.html.php:199
+#: ../../../../codigo/templates/usuario_mos.html.php:76
+#: ../../../../codigo/templates/usuario_mos.html.php:92
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:59
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:75
+msgid "Cancelar"
+msgstr "Cancel"
+
+#: ../../../../acciones_acsm.php:23
+msgid ""
+"Atención esta por borrar completamente la base de datos del sistema. Esta "
+"operación es irreversible."
+msgstr ""
+
+#: ../../../../acciones_acsm.php:23
+msgid "¿Esta seguro que desea continuar?."
+msgstr ""
+
+#: ../../../../acciones_acsm.php:27
+msgid ""
+"Está por re-sincronizar todas las personas del sistema, este proceso puede "
+"demorar un minutos hasta que todos los Equipo del sistema reciban la nueva "
+"configuración."
+msgstr ""
+
+#: ../../../../acciones_acsm.php:27
+msgid "¿Esta seguro que desea realizar esta operación en este instante?"
+msgstr ""
+
+#: ../../../../acciones_acsm.php:31
+msgid "Bloqueo de Emergencia <br />Se bloquearan todos los equipos."
+msgstr ""
+
+#: ../../../../acciones_acsm.php:31
+msgid "Esto hará que todas las puertas no se puedan abrir."
+msgstr ""
+
+#: ../../../../acciones_acsm.php:35
+msgid "Bloqueo de Emergencia"
+msgstr "Emergency Locking"
+
+#: ../../../../acciones_acsm.php:35
+msgid "Se Des-bloquearan todos los equipos."
+msgstr ""
+
+#: ../../../../acciones_acsm.php:61
+msgid "Los combios fueron realizados con éxito."
+msgstr ""
+
+#: ../../../../acciones_acsm.php:62
+msgid "Reiniciar todas las Bases de Datos"
+msgstr "Reset DB to default"
+
+#: ../../../../acciones_acsm.php:67
+msgid "La Re-sincronizar de personas se a lanzado con éxito..."
+msgstr ""
+
+#: ../../../../acciones_acsm.php:68
+msgid "Re-sincronizar de personas en todo el sistema"
+msgstr "Re-Sync Persons"
+
+#: ../../../../acciones_acsm.php:77
+msgid "Bloqueo de emergencia - Bloquea todos los equipos"
+msgstr ""
+
+#: ../../../../acciones_acsm.php:86
+msgid "Bloqueo de emergencia - Desbloquea todos los equipos"
+msgstr ""
+
+#: ../../../../acciones_acsm.php:93 ../../../../acciones_equipos.php:110
+msgid "No se ha ingresado la contraseña de usuario"
+msgstr "Write your user password"
+
+#: ../../../../acciones_equipos.php:9
+msgid "Acciones de los Equipos"
+msgstr "Equipo Actions"
+
+#: ../../../../acciones_equipos.php:28
+msgid "Esta seguro que desea borrar los usuarios"
+msgstr ""
+
+#: ../../../../acciones_equipos.php:33
+msgid "Esta seguro que desea resetear la configuración"
+msgstr ""
+
+#: ../../../../acciones_equipos.php:38
+msgid "Esta seguro que desea reiniciar el Equipo"
+msgstr ""
+
+#: ../../../../acciones_equipos.php:43
+msgid "Esta seguro que desea enviar la fecha y hora del servidor al equipo"
+msgstr ""
+
+#: ../../../../acciones_equipos.php:48
+msgid "Esta seguro que desea reenviar todas las configuraciones"
+msgstr ""
+
+#: ../../../../acciones_equipos.php:52
+msgid "No hay ningun Equipo seleccionado."
+msgstr ""
+
+#: ../../../../acciones_equipos.php:65 ../../../../acciones_equipos.php:72
+msgid "Los cambios fueron realizados con éxito."
+msgstr ""
+
+#: ../../../../acciones_equipos.php:66
+msgid "Tabla - Ususario"
+msgstr "Table - User"
+
+#: ../../../../acciones_equipos.php:73
+#: ../../../../codigo/templates/acciones_equipos.html.php:46
+msgid "Resetear Configuración"
+msgstr "Reset Config"
+
+#: ../../../../acciones_equipos.php:79 ../../../../acciones_equipos.php:86
+msgid "Comando enviado con éxito."
+msgstr ""
+
+#: ../../../../acciones_equipos.php:80
+msgid "Reiniciar Equipo"
+msgstr "Reboot Equipo"
+
+#: ../../../../acciones_equipos.php:87
+msgid "Sincronizar Fecha y Hora, Equipo"
+msgstr "Send Date and Time"
+
+#: ../../../../acciones_equipos.php:98
+msgid ""
+"Proceso iniciado con éxito. El equipo puede demorar unos minutos en recibir "
+"toda la información."
+msgstr ""
+
+#: ../../../../acciones_equipos.php:99
+msgid "Re-Enviar datos Equipo"
+msgstr ""
+
+#: ../../../../acciones_equipos.php:104
+msgid ""
+"Todavía no fue asignada la dirección IP el equipo. \n"
+"\t\t\t\t\t\t\t\t\tEs necesario que el Gatreway se sincronice para realizar "
+"estas operaciones."
+msgstr ""
+
+#: ../../../../alarma.php:8
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:168
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:183
+#: ../../../../codigo/templates/alarma.html.php:60
+msgid "Alarma"
+msgstr "Alarm"
+
+#: ../../../../alarma.php:53 ../../../../equipo.php:58
+msgid "Lo sentimos, el gareway no existe."
+msgstr ""
+
+#: ../../../../alarma.php:66
+msgid "Tabla - Equipo-"
+msgstr ""
+
+#: ../../../../alarma.php:67
+msgid "Las Alarmas del equipo fue asignadas con éxito."
+msgstr ""
+
+#: ../../../../alarma.php:136 ../../../../equipo.php:179
+#: ../../../../permiso.php:45 ../../../../permiso.php:79
+#: ../../../../usuario.php:55 ../../../../usuario.php:144
+msgid "Lo sentimos, el usuario no existe."
+msgstr ""
+
+#: ../../../../alarma_tipo.php:9 ../../../../codigo/includes/menu.inc.php:79
+msgid "Alarmas"
+msgstr "Alarms"
+
+#: ../../../../alarma_tipo.php:28
+msgid "El tipo de alarma fue guardada con éxito."
+msgstr ""
+
+#: ../../../../alarma_tipo.php:47
+msgid "El tipo de alarma fue modificada con éxito."
+msgstr ""
+
+#: ../../../../config.php:8 ../../../../codigo/includes/menu.inc.php:157
+msgid "Configuración General"
+msgstr "General Config"
+
+#: ../../../../config.php:32
+msgid "Los combios fue modificados con éxito."
+msgstr ""
+
+#: ../../../../cron.php:43
+#: ../../../../codigo/libs/helpers/consolahelper.class.php:25
+msgid "No se pudo conectar con el Equipo"
+msgstr "Could not connect Equipo"
+
+#: ../../../../cron.php:43 ../../../../cron.php:54
+msgid "IP"
+msgstr ""
+
+#: ../../../../cron.php:54
+msgid "No se puede enviar comandos al Equipo"
+msgstr "Could not send any commands to Equipo"
+
+#: ../../../../cron.php:253
+msgid "El registro"
+msgstr ""
+
+#: ../../../../cron.php:253
+msgid "nunca se envió."
+msgstr ""
+
+#: ../../../../cron.php:260
+msgid "Reintentando registro"
+msgstr ""
+
+#: ../../../../cron.php:260
+msgid "Reintento #"
+msgstr ""
+
+#: ../../../../cron.php:265
+msgid "Error registro"
+msgstr ""
+
+#: ../../../../dispositivo.php:9 ../../../../reporte_pdf.php:123
+#: ../../../../reporte_pdf.php:172
+msgid "Periférico"
+msgstr "Device"
+
+#: ../../../../dispositivo.php:36 ../../../../dispositivo.php:108
+#: ../../../../dispositivo.php:136 ../../../../dispositivo_tipo.php:25
+#: ../../../../dispositivo_tipo.php:43 ../../../../equipo.php:79
+#: ../../../../persona.php:48 ../../../../persona.php:133
+#: ../../../../persona.php:164 ../../../../persona.php:195
+#: ../../../../zona_tipo.php:27 ../../../../zona_tipo.php:45
+#: ../../../../zona_x_persona.php:31
+msgid "Tabla"
+msgstr ""
+
+#: ../../../../dispositivo.php:37
+msgid "El Periférico fue guardado con éxito"
+msgstr ""
+
+#: ../../../../dispositivo.php:43 ../../../../persona.php:55
+msgid "Tabla - zona Id"
+msgstr ""
+
+#: ../../../../dispositivo.php:44 ../../../../persona.php:56
+msgid " y se a asignado a la zona "
+msgstr ""
+
+#: ../../../../dispositivo.php:51
+msgid "El Periférico NO se ha asignado a la zona."
+msgstr ""
+
+#: ../../../../dispositivo.php:64 ../../../../dispositivo.php:151
+msgid "Lo sentimos, el periférico no existe."
+msgstr ""
+
+#: ../../../../dispositivo.php:80
+msgid "El periférico fue modificado con éxito."
+msgstr ""
+
+#: ../../../../dispositivo.php:100
+msgid "Lo sentimos, el periférico que desea habilitar no existe."
+msgstr ""
+
+#: ../../../../dispositivo.php:109
+msgid "El periférico fue habilitado con éxito."
+msgstr ""
+
+#: ../../../../dispositivo.php:128
+msgid "Lo sentimos, el periférico que desea bloquer no existe."
+msgstr ""
+
+#: ../../../../dispositivo.php:137
+msgid "El periférico fue bloqueo con éxito."
+msgstr ""
+
+#: ../../../../dispositivo_tipo.php:26
+msgid "Tipo de Periférico guardado con éxito."
+msgstr ""
+
+#: ../../../../dispositivo_tipo.php:44
+msgid "Tipo de Periférico modificado con éxito."
+msgstr ""
+
+#: ../../../../equipo.php:9 ../../../../logs_equipo.ajax.php:28
+#: ../../../../codigo/clases/controlpersonal_o.class.php:48
+#: ../../../../codigo/clases/dispositivo_o.class.php:137
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:141
+#: ../../../../codigo/clases/sync_o.class.php:71
+#: ../../../../codigo/templates/dispositivo_cre.html.php:72
+#: ../../../../codigo/templates/dispositivo_mos.html.php:55
+#: ../../../../codigo/templates/logs_sync.html.php:21
+#: ../../../../codigo/templates/not_contenido_cre.html.php:81
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:95
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:43
+msgid "Equipo"
+msgstr "Equipo"
+
+#: ../../../../equipo.php:42
+msgid "El equipo fue guardado con éxito."
+msgstr ""
+
+#: ../../../../equipo.php:80
+msgid "El equipo fue modificado con éxito."
+msgstr ""
+
+#: ../../../../equipo.php:102
+msgid "Lo sentimos, el equipo que desea habilitar no existe."
+msgstr ""
+
+#: ../../../../equipo.php:112
+msgid "El equipo fue habilitado con éxito."
+msgstr ""
+
+#: ../../../../equipo.php:128
+msgid "Lo sentimos, el equipo que desea bloquera no existe."
+msgstr ""
+
+#: ../../../../equipo.php:138
+msgid "El Equipo fue bloquado con éxito."
+msgstr ""
+
+#: ../../../../equipo.php:154
+msgid "Lo sentimos, el equipo que desea eliminar no existe."
+msgstr ""
+
+#: ../../../../equipo.php:157
+msgid "La Contraseña es incorrecta."
+msgstr "Wrong Password"
+
+#: ../../../../equipo.php:164
+msgid "El equipo fue eliminado con éxito."
+msgstr ""
+
+#: ../../../../equipo.php:169
+msgid "Todos los datos relacionados con este equipo serán Eliminados."
+msgstr ""
+
+#: ../../../../equipo.php:169
+msgid "Esto es irreversible."
+msgstr ""
+
+#: ../../../../index.php:18
+msgid "Usuario o Contraseña incorrecta."
+msgstr "Wrong User or Password"
+
+#: ../../../../leer_host.php:23
+msgid "No hay Equipo asignados."
+msgstr ""
+
+#: ../../../../logs_equipo.ajax.php:29
+#: ../../../../codigo/clases/controlpersonal_o.class.php:68
+#: ../../../../codigo/clases/logs_equipo_o.class.php:120
+#: ../../../../codigo/templates/dispositivo.html.php:22
+#: ../../../../codigo/templates/dispositivo_cre.html.php:47
+#: ../../../../codigo/templates/dispositivo_mos.html.php:37
+#: ../../../../codigo/templates/zona_x_equipo.html.php:31
+msgid "Lector"
+msgstr "Reader"
+
+#: ../../../../logs_equipo.ajax.php:30
+#: ../../../../codigo/clases/logs_equipo_o.class.php:129
+#: ../../../../codigo/templates/dispositivo.html.php:23
+#: ../../../../codigo/templates/dispositivo_cre.html.php:56
+#: ../../../../codigo/templates/dispositivo_mos.html.php:43
+msgid "Pulsador"
+msgstr "Push-button"
+
+#: ../../../../logs_equipo.ajax.php:31
+#: ../../../../codigo/templates/logs_web.html.php:17
+msgid "Fecha_Hora"
+msgstr "Date:"
+
+#: ../../../../logs_equipo.ajax.php:32 ../../../../persona.php:8
+#: ../../../../reporte_pdf.php:172
+#: ../../../../codigo/clases/logs_equipo_o.class.php:102
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:147
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:162
+#: ../../../../codigo/clases/zona_o.class.php:73
+#: ../../../../codigo/templates/not_contenido_cre.html.php:63
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:75
+#: ../../../../codigo/templates/zona_x_persona.html.php:27
+msgid "Persona"
+msgstr "Person"
+
+#: ../../../../logs_equipo.ajax.php:33
+#: ../../../../codigo/clases/logs_equipo_o.class.php:111
+#: ../../../../codigo/templates/alarma.html.php:62
+#: ../../../../codigo/templates/alarma_tipo.html.php:8
+#: ../../../../codigo/templates/alarma_tipo_cre.html.php:36
+msgid "Accion"
+msgstr "Action"
+
+#: ../../../../logs_equipo.ajax.php:49
+#: ../../../../codigo/templates/alarma.html.php:100
+#: ../../../../codigo/templates/config.html.php:80
+#: ../../../../codigo/templates/dispositivo.html.php:57
+#: ../../../../codigo/templates/dispositivo_tipo.html.php:24
+#: ../../../../codigo/templates/dispositivo_tipo_cre.html.php:53
+#: ../../../../codigo/templates/equipo.html.php:50
+#: ../../../../codigo/templates/logs_sync.html.php:45
+#: ../../../../codigo/templates/logs_web.html.php:33
+#: ../../../../codigo/templates/notificaciones.html.php:49
+#: ../../../../codigo/templates/not_contenido.html.php:39
+#: ../../../../codigo/templates/not_disparadores.html.php:39
+#: ../../../../codigo/templates/not_grupos.html.php:38
+#: ../../../../codigo/templates/permiso.html.php:33
+#: ../../../../codigo/templates/persona.html.php:51
+#: ../../../../codigo/templates/grupo.html.php:24
+#: ../../../../codigo/templates/rol_cre.html.php:53
+#: ../../../../codigo/templates/usuario.html.php:45
+#: ../../../../codigo/templates/zona_tipo.html.php:28
+#: ../../../../codigo/templates/zona_tipo_cre.html.php:53
+#: ../../../../codigo/templates/zona_x_equipo.html.php:55
+#: ../../../../codigo/templates/zona_x_equipo_cre.html.php:25
+#: ../../../../codigo/templates/zona_x_persona.html.php:45
+#: ../../../../codigo/templates/zona_x_persona_cre.html.php:29
+msgid "No hay publicaciones para esta sección."
+msgstr "Nothing to show here."
+
+#: ../../../../logs_sync.php:31
+msgid "Proceso iniciado con éxito."
+msgstr ""
+
+#: ../../../../notificaciones.php:8
+#: ../../../../codigo/includes/menu.inc.php:101
+#: ../../../../codigo/includes/menu.inc.php:105
+msgid "Notificaciones"
+msgstr "Notifications"
+
+#: ../../../../notificaciones.php:42
+msgid "La Notificación fue guardado con éxito"
+msgstr ""
+
+#: ../../../../notificaciones.php:67 ../../../../notificaciones.php:121
+msgid "EMAIL"
+msgstr ""
+
+#: ../../../../notificaciones.php:89
+msgid "La Notificación fue modificada con éxito"
+msgstr ""
+
+#: ../../../../notificaciones.php:134
+msgid "La Notificación se envió con éxito"
+msgstr ""
+
+#: ../../../../not_contenido.php:8
+#: ../../../../codigo/clases/notificaciones_o.class.php:141
+#: ../../../../codigo/templates/notificaciones.html.php:19
+#: ../../../../codigo/templates/notificaciones_cre.html.php:63
+msgid "Contenido"
+msgstr "Content"
+
+#: ../../../../not_contenido.php:54 ../../../../not_contenido.php:144
+msgid "Debe escribir un Mensaje"
+msgstr ""
+
+#: ../../../../not_contenido.php:63
+msgid "Debe seleccionar un tipo de Reporte"
+msgstr "You must select a Report kind"
+
+#: ../../../../not_contenido.php:78 ../../../../not_contenido.php:154
+#: ../../../../not_disparadores.php:86 ../../../../not_disparadores.php:222
+msgid "Debe seleccionar un Tipo"
+msgstr "You must select a Type"
+
+#: ../../../../not_contenido.php:86
+msgid "El Contenido fue guardado con éxito"
+msgstr ""
+
+#: ../../../../not_contenido.php:121 ../../../../not_contenido.php:219
+#: ../../../../codigo/includes/menu.inc.php:121
+msgid "Reporte por Persona"
+msgstr "Person Report"
+
+#: ../../../../not_contenido.php:121 ../../../../not_contenido.php:219
+#: ../../../../codigo/includes/menu.inc.php:122
+msgid "Reporte por Zona"
+msgstr "Sector Report"
+
+#: ../../../../not_contenido.php:160
+msgid "El Contenido fue modificado con éxito"
+msgstr ""
+
+#: ../../../../not_disparadores.php:8
+#: ../../../../codigo/includes/menu.inc.php:107
+msgid "Disparadores"
+msgstr "Triggers"
+
+#: ../../../../not_disparadores.php:43 ../../../../not_disparadores.php:156
+msgid "Debe seleccionar un Disparador"
+msgstr "You must select a Trigger"
+
+#: ../../../../not_disparadores.php:94
+msgid "El Disparador fue guardado con éxito"
+msgstr ""
+
+#: ../../../../not_disparadores.php:132 ../../../../not_disparadores.php:289
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:104
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:110
+msgid "Inmediato"
+msgstr "Instant"
+
+#: ../../../../not_disparadores.php:132 ../../../../not_disparadores.php:289
+msgid "Diferido"
+msgstr ""
+
+#: ../../../../not_disparadores.php:133 ../../../../not_disparadores.php:290
+msgid "Acceso a Dispositivo"
+msgstr "Device Access"
+
+#: ../../../../not_disparadores.php:133 ../../../../not_disparadores.php:290
+msgid "Acceso a Zona"
+msgstr "Sector Access"
+
+#: ../../../../not_disparadores.php:133 ../../../../not_disparadores.php:290
+#: ../../../../codigo/templates/alarma.html.php:67
+#: ../../../../codigo/templates/alarma_cre.html.php:53
+#: ../../../../codigo/templates/alarma_mos.html.php:55
+msgid "Alarma 1"
+msgstr "Alarm 1"
+
+#: ../../../../not_disparadores.php:133 ../../../../not_disparadores.php:290
+#: ../../../../codigo/templates/alarma.html.php:72
+#: ../../../../codigo/templates/alarma_cre.html.php:62
+#: ../../../../codigo/templates/alarma_mos.html.php:61
+msgid "Alarma 2"
+msgstr "Alarm 2"
+
+#: ../../../../not_disparadores.php:133 ../../../../not_disparadores.php:290
+#: ../../../../codigo/templates/alarma.html.php:77
+#: ../../../../codigo/templates/alarma_cre.html.php:71
+#: ../../../../codigo/templates/alarma_mos.html.php:67
+msgid "Alarma 3"
+msgstr "Alarm 3"
+
+#: ../../../../not_disparadores.php:133 ../../../../not_disparadores.php:290
+#: ../../../../codigo/templates/alarma.html.php:82
+#: ../../../../codigo/templates/alarma_cre.html.php:80
+#: ../../../../codigo/templates/alarma_mos.html.php:73
+msgid "Tamper"
+msgstr "Tamper"
+
+#: ../../../../not_disparadores.php:133 ../../../../not_disparadores.php:290
+msgid "Equipo pierde Conexión"
+msgstr ""
+
+#: ../../../../not_disparadores.php:138 ../../../../not_disparadores.php:295
+msgid "Diariamente"
+msgstr ""
+
+#: ../../../../not_disparadores.php:138 ../../../../not_disparadores.php:295
+msgid "Semanalmente"
+msgstr ""
+
+#: ../../../../not_disparadores.php:138 ../../../../not_disparadores.php:295
+msgid "Quincenalmente"
+msgstr "Fortnightly"
+
+#: ../../../../not_disparadores.php:138 ../../../../not_disparadores.php:295
+msgid "Mensualmente"
+msgstr "Monthly"
+
+#: ../../../../not_disparadores.php:138 ../../../../not_disparadores.php:295
+msgid "Anualmente"
+msgstr "Yearly"
+
+#: ../../../../not_disparadores.php:139 ../../../../not_disparadores.php:296
+msgid "Acceso Correcto"
+msgstr ""
+
+#: ../../../../not_disparadores.php:139 ../../../../not_disparadores.php:296
+msgid "Sin Permisos"
+msgstr ""
+
+#: ../../../../not_disparadores.php:139 ../../../../not_disparadores.php:296
+msgid "Fuera de Horario"
+msgstr ""
+
+#: ../../../../not_disparadores.php:230
+msgid "El Disparador fue modificado con éxito"
+msgstr ""
+
+#: ../../../../not_grupos.php:8
+msgid "Grupos"
+msgstr "Groups"
+
+#: ../../../../not_grupos.php:28
+msgid "El Grupo fue guardado con éxito"
+msgstr ""
+
+#: ../../../../not_grupos.php:50
+msgid "El Grupo fue modificado con éxito"
+msgstr ""
+
+#: ../../../../permiso.php:9 ../../../../codigo/includes/menu.inc.php:56
+msgid "Permisos"
+msgstr "Permissions"
+
+#: ../../../../permiso.php:13 ../../../../codigo/initialization.php:279
+msgid "Domingo"
+msgstr "Sunday"
+
+#: ../../../../permiso.php:13 ../../../../codigo/initialization.php:279
+msgid "Lunes"
+msgstr "Monday"
+
+#: ../../../../permiso.php:13 ../../../../codigo/initialization.php:279
+msgid "Martes"
+msgstr "Tuesday"
+
+#: ../../../../permiso.php:13 ../../../../codigo/initialization.php:279
+msgid "Miércoles"
+msgstr "Wednesday"
+
+#: ../../../../permiso.php:13 ../../../../codigo/initialization.php:279
+msgid "Jueves"
+msgstr "Thursday"
+
+#: ../../../../permiso.php:13 ../../../../codigo/initialization.php:279
+msgid "Viernes"
+msgstr "Friday"
+
+#: ../../../../permiso.php:13 ../../../../codigo/initialization.php:279
+msgid "Sábado"
+msgstr "Saturday"
+
+#: ../../../../permiso.php:33
+msgid "El permiso fue guardado con éxito."
+msgstr ""
+
+#: ../../../../permiso.php:59
+msgid "El permiso fue modificado con éxito."
+msgstr ""
+
+#: ../../../../persona.php:23
+#: ../../../../codigo/clases/persona_o.class.php:406
+msgid "Limite máximo de Personas alcanzado"
+msgstr "Max number of Persons reached"
+
+#: ../../../../persona.php:55 ../../../../reporte_pdf.php:162
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:157
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:172
+#: ../../../../codigo/clases/zona_o.class.php:63
+#: ../../../../codigo/templates/not_contenido_cre.html.php:72
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:65
+#: ../../../../codigo/templates/zona_tipo.html.php:7
+#: ../../../../codigo/templates/zona_x_persona.html.php:28
+msgid "Zona"
+msgstr "Sector"
+
+#: ../../../../persona.php:64
+msgid "La persona NO se ha asignado a la zona."
+msgstr ""
+
+#: ../../../../persona.php:80 ../../../../persona.php:207
+msgid "Lo sentimos, la persona no existe."
+msgstr ""
+
+#: ../../../../persona.php:102
+msgid "La persona fue modificado con éxito."
+msgstr ""
+
+#: ../../../../persona.php:123
+msgid "Lo sentimos, la persona que desea habilitar no existe."
+msgstr ""
+
+#: ../../../../persona.php:134
+msgid "La persona fue habilitada con éxito."
+msgstr ""
+
+#: ../../../../persona.php:153
+msgid "Lo sentimos, la persona que desea bloquear no existe."
+msgstr ""
+
+#: ../../../../persona.php:165
+msgid "La persona fue bloqueada con éxito."
+msgstr ""
+
+#: ../../../../persona.php:184
+msgid "Lo sentimos, la persona que desea eliminar no existe."
+msgstr ""
+
+#: ../../../../persona.php:196
+msgid "La persona fue eliminada con éxito."
+msgstr ""
+
+#: ../../../../reporte_pdf.php:52
+msgid "Datos de la tabla erróneos."
+msgstr ""
+
+#: ../../../../reporte_pdf.php:91
+msgid "Reportes ACSM"
+msgstr "ACSM Report"
+
+#: ../../../../reporte_pdf.php:96
+msgid "Intervalo incorrecto"
+msgstr "Wrong interval"
+
+#: ../../../../reporte_pdf.php:110
+msgid "Reporte de Persona"
+msgstr "Person Report"
+
+#: ../../../../reporte_pdf.php:113
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:79
+#: ../../../../codigo/clases/notificaciones_o.class.php:64
+#: ../../../../codigo/clases/persona_o.class.php:166
+#: ../../../../codigo/clases/usuario_o.class.php:99
+#: ../../../../codigo/templates/notificaciones.html.php:15
+#: ../../../../codigo/templates/notificaciones_cre.html.php:29
+#: ../../../../codigo/templates/not_contenido.html.php:10
+#: ../../../../codigo/templates/not_contenido_cre.html.php:29
+#: ../../../../codigo/templates/not_disparadores.html.php:10
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:29
+#: ../../../../codigo/templates/not_grupos.html.php:10
+#: ../../../../codigo/templates/not_grupos_cre.html.php:33
+#: ../../../../codigo/templates/persona_cre.html.php:54
+#: ../../../../codigo/templates/persona_mos.html.php:45
+#: ../../../../codigo/templates/usuario_mos.html.php:40
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:37
+msgid "Nombre"
+msgstr "Name"
+
+#: ../../../../reporte_pdf.php:118 ../../../../reporte_pdf.php:167
+msgid "Intervalo"
+msgstr ""
+
+#: ../../../../reporte_pdf.php:123 ../../../../reporte_pdf.php:172
+msgid "Fecha y Hora"
+msgstr "Send Date and Time"
+
+#: ../../../../reporte_pdf.php:123 ../../../../reporte_pdf.php:172
+#: ../../../../codigo/clases/equipo_o.class.php:116
+#: ../../../../codigo/templates/alarma.html.php:61
+#: ../../../../codigo/templates/alarma_cre.html.php:35
+#: ../../../../codigo/templates/alarma_tipo_cre.html.php:29
+#: ../../../../codigo/templates/dispositivo_tipo_cre.html.php:29
+#: ../../../../codigo/templates/equipo.html.php:12
+#: ../../../../codigo/templates/equipo_cre.html.php:60
+#: ../../../../codigo/templates/equipo_mos.html.php:33
+#: ../../../../codigo/templates/permiso.html.php:10
+#: ../../../../codigo/templates/permiso_cre.html.php:29
+#: ../../../../codigo/templates/rol_cre.html.php:29
+#: ../../../../codigo/templates/zona_tipo_cre.html.php:29
+msgid "Detalle"
+msgstr "Name "
+
+#: ../../../../reporte_pdf.php:156
+msgid "Falta la ZONA"
+msgstr ""
+
+#: ../../../../reporte_pdf.php:159
+msgid "Reporte de accesos a Zona"
+msgstr "Sector Access Report"
+
+#: ../../../../reporte_pdf.php:231
+msgid "Falta el TIPO"
+msgstr ""
+
+#: ../../../../grupo.php:9
+msgid "Roles"
+msgstr ""
+
+#: ../../../../grupo.php:28
+msgid "El grupo fue guardado con éxito."
+msgstr ""
+
+#: ../../../../grupo.php:46
+msgid "El grupo fue modificado con éxito."
+msgstr ""
+
+#: ../../../../token-credito.php:8
+msgid "Créditos"
+msgstr "Credits"
+
+#: ../../../../token-credito.php:57
+msgid "Tiene que agregar algun token o crédito."
+msgstr ""
+
+#: ../../../../token-credito.php:60
+msgid "Los token solo pueden se núneros enteros."
+msgstr ""
+
+#: ../../../../token-credito.php:63
+msgid "El crédito debe se ser núneros."
+msgstr ""
+
+#: ../../../../token-credito.php:86
+#: ../../../../codigo/templates/persona.html.php:11
+#: ../../../../codigo/templates/persona_cre.html.php:38
+#: ../../../../codigo/templates/token-credito.html.php:21
+msgid "Grupo"
+msgstr ""
+
+#: ../../../../token-credito.php:86
+#: ../../../../codigo/templates/token-credito.html.php:39
+msgid "Crédito"
+msgstr "Credit"
+
+#: ../../../../token-credito.php:87
+msgid "Los cambios se han realizado con éxito"
+msgstr ""
+
+#: ../../../../usuario.php:9 ../../../../codigo/clases/logs_web_o.class.php:67
+#: ../../../../codigo/clases/usuario_o.class.php:170
+#: ../../../../codigo/templates/layout.html_o.php:28
+#: ../../../../codigo/templates/login.html.php:6
+#: ../../../../codigo/templates/logs_web.html.php:15
+#: ../../../../codigo/templates/usuario.html.php:10
+#: ../../../../codigo/templates/usuario_cre.html.php:42
+#: ../../../../codigo/templates/usuario_mos.html.php:28
+msgid "Usuario"
+msgstr "User"
+
+#: ../../../../usuario.php:38
+msgid "El usuario fue guardado con éxito."
+msgstr ""
+
+#: ../../../../usuario.php:78
+msgid "El usuario fue modificado con éxito."
+msgstr ""
+
+#: ../../../../usuario.php:99
+msgid "Lo sentimos, el usuario que desea habilitar no existe."
+msgstr ""
+
+#: ../../../../usuario.php:108
+msgid "El usuario fue habilitado con éxito."
+msgstr ""
+
+#: ../../../../usuario.php:124
+msgid "Lo sentimos, el usuario que desea eliminar no existe."
+msgstr ""
+
+#: ../../../../usuario.php:133
+msgid "El usuario fue eliminado con éxito."
+msgstr ""
+
+#: ../../../../zona_tipo.php:9 ../../../../codigo/includes/menu.inc.php:20
+msgid "Zonas"
+msgstr "Sectors"
+
+#: ../../../../zona_tipo.php:28
+msgid "La zona fue guardada con éxito."
+msgstr ""
+
+#: ../../../../zona_tipo.php:46
+msgid "La Zona fue modificada con éxito."
+msgstr ""
+
+#: ../../../../zona_x_equipo.php:8
+msgid "Equipos por Zona"
+msgstr "Equipos per Sector"
+
+#: ../../../../zona_x_equipo.php:32
+msgid "El dispositivo se ha asignado con éxito a la zona."
+msgstr ""
+
+#: ../../../../zona_x_equipo.php:34
+msgid "El dispositivo NO se ha asignado a la zona."
+msgstr ""
+
+#: ../../../../zona_x_equipo.php:37
+msgid "Este dispositivo ya fue asignado."
+msgstr "This device has already been asigned."
+
+#: ../../../../zona_x_equipo.php:41 ../../../../zona_x_persona.php:45
+msgid "Debe seleccionar una Zona."
+msgstr "You must select a Sector."
+
+#: ../../../../zona_x_equipo.php:60
+msgid "El dispositivo se ha quitado con éxito a la zona."
+msgstr ""
+
+#: ../../../../zona_x_equipo.php:62
+msgid "El dispositivo NO se ha podido quitar de a la zona."
+msgstr ""
+
+#: ../../../../zona_x_equipo.php:66
+msgid "Este dispositivo NUNCA fue asignado."
+msgstr "This device has never been asigned."
+
+#: ../../../../zona_x_equipo.php:77 ../../../../zona_x_persona.php:81
+msgid "Lo sentimos, la zona no existe."
+msgstr ""
+
+#: ../../../../zona_x_persona.php:8
+msgid "Personas por Zona"
+msgstr "Persons per Sector"
+
+#: ../../../../zona_x_persona.php:36
+msgid "La Persona se ha asignado con éxito a la zona."
+msgstr ""
+
+#: ../../../../zona_x_persona.php:38
+msgid "La Persona NO se ha asignado a la zona."
+msgstr ""
+
+#: ../../../../zona_x_persona.php:41
+msgid "Esta Persona ya fue asignada."
+msgstr "This Person has already been asigned."
+
+#: ../../../../zona_x_persona.php:63
+msgid "La Persona se ha quitado con éxito a la zona."
+msgstr ""
+
+#: ../../../../zona_x_persona.php:66
+msgid "La Persona NO se ha podido quitar de a la zona."
+msgstr ""
+
+#: ../../../../zona_x_persona.php:70
+msgid "Esta Persona NUNCA fue asignada."
+msgstr "This Person has never been asigned."
+
+#: ../../../../codigo/initialization.php:136
+msgid "Usuario Bloqueado."
+msgstr "Bloqued User"
+
+#: ../../../../codigo/initialization.php:139
+msgid "Usuario temporalmente bloqueado."
+msgstr "Temporary bloqued User"
+
+#: ../../../../codigo/initialization.php:166
+#: ../../../../codigo/templates/alarma_cre.html.php:100
+#: ../../../../codigo/templates/dispositivo_cre.html.php:96
+#: ../../../../codigo/templates/equipo_cre.html.php:73
+#: ../../../../codigo/templates/notificaciones_cre.html.php:81
+#: ../../../../codigo/templates/not_contenido_cre.html.php:119
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:134
+#: ../../../../codigo/templates/not_grupos_cre.html.php:57
+#: ../../../../codigo/templates/permiso_cre.html.php:63
+#: ../../../../codigo/templates/persona_cre.html.php:123
+#: ../../../../codigo/templates/token-credito.html.php:49
+#: ../../../../codigo/templates/usuario_cre.html.php:121
+msgid "Crear"
+msgstr "Add"
+
+#: ../../../../codigo/initialization.php:166
+#: ../../../../codigo/templates/alarma_cre.html.php:97
+#: ../../../../codigo/templates/alarma_tipo_cre.html.php:48
+#: ../../../../codigo/templates/dispositivo.html.php:41
+#: ../../../../codigo/templates/dispositivo_cre.html.php:93
+#: ../../../../codigo/templates/dispositivo_tipo.html.php:15
+#: ../../../../codigo/templates/dispositivo_tipo_cre.html.php:39
+#: ../../../../codigo/templates/equipo_cre.html.php:70
+#: ../../../../codigo/templates/notificaciones.html.php:33
+#: ../../../../codigo/templates/notificaciones_cre.html.php:78
+#: ../../../../codigo/templates/not_contenido.html.php:25
+#: ../../../../codigo/templates/not_contenido_cre.html.php:116
+#: ../../../../codigo/templates/not_disparadores.html.php:25
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:131
+#: ../../../../codigo/templates/not_grupos_cre.html.php:54
+#: ../../../../codigo/templates/permiso.html.php:24
+#: ../../../../codigo/templates/permiso_cre.html.php:60
+#: ../../../../codigo/templates/persona.html.php:34
+#: ../../../../codigo/templates/persona_cre.html.php:120
+#: ../../../../codigo/templates/grupo.html.php:15
+#: ../../../../codigo/templates/rol_cre.html.php:39
+#: ../../../../codigo/templates/usuario.html.php:32
+#: ../../../../codigo/templates/usuario_cre.html.php:118
+#: ../../../../codigo/templates/zona_tipo.html.php:18
+#: ../../../../codigo/templates/zona_tipo_cre.html.php:39
+#: ../../../../codigo/templates/zona_x_equipo.html.php:14
+#: ../../../../codigo/templates/zona_x_equipo.html.php:49
+#: ../../../../codigo/templates/zona_x_persona.html.php:37
+msgid "Modificar"
+msgstr "Edit"
+
+#: ../../../../codigo/initialization.php:166
+#: ../../../../codigo/templates/alarma_mos.html.php:122
+#: ../../../../codigo/templates/dispositivo.html.php:44
+#: ../../../../codigo/templates/dispositivo_mos.html.php:86
+#: ../../../../codigo/templates/equipo_mos.html.php:124
+#: ../../../../codigo/templates/persona.html.php:37
+#: ../../../../codigo/templates/persona_mos.html.php:198
+#: ../../../../codigo/templates/usuario.html.php:35
+#: ../../../../codigo/templates/usuario_mos.html.php:91
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:74
+msgid "Habilitar"
+msgstr "Enable"
+
+#: ../../../../codigo/initialization.php:166
+#: ../../../../codigo/templates/dispositivo.html.php:42
+#: ../../../../codigo/templates/dispositivo_mos.html.php:70
+#: ../../../../codigo/templates/equipo_mos.html.php:108
+#: ../../../../codigo/templates/persona.html.php:35
+#: ../../../../codigo/templates/persona_mos.html.php:182
+msgid "Bloquear"
+msgstr "Disable"
+
+#: ../../../../codigo/initialization.php:166
+#: ../../../../codigo/templates/not_grupos_add.html.php:39
+msgid "Agregar"
+msgstr "Add"
+
+#: ../../../../codigo/initialization.php:166
+msgid "Quitar"
+msgstr "Remove"
+
+#: ../../../../codigo/initialization.php:166
+#: ../../../../codigo/templates/alarma_mos.html.php:106
+#: ../../../../codigo/templates/equipo_mos.html.php:144
+#: ../../../../codigo/templates/notificaciones.html.php:35
+#: ../../../../codigo/templates/not_contenido.html.php:27
+#: ../../../../codigo/templates/not_disparadores.html.php:27
+#: ../../../../codigo/templates/not_grupos.html.php:26
+#: ../../../../codigo/templates/not_grupos_add.html.php:45
+#: ../../../../codigo/templates/persona.html.php:39
+#: ../../../../codigo/templates/persona_mos.html.php:166
+#: ../../../../codigo/templates/usuario.html.php:33
+#: ../../../../codigo/templates/usuario_mos.html.php:75
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:58
+msgid "Eliminar"
+msgstr "Remove"
+
+#: ../../../../codigo/initialization.php:166
+#: ../../../../codigo/templates/acciones_equipos.html.php:43
+#: ../../../../codigo/templates/acciones_equipos.html.php:46
+msgid "Borrar"
+msgstr "Remove"
+
+#: ../../../../codigo/initialization.php:166
+#: ../../../../codigo/templates/acciones_equipos.html.php:49
+msgid "Reiniciar"
+msgstr "Restart"
+
+#: ../../../../codigo/initialization.php:166
+msgid "Re-Enviar"
+msgstr "ReSend"
+
+#: ../../../../codigo/initialization.php:166
+msgid "Re-Sync"
+msgstr "ReSync"
+
+#: ../../../../codigo/initialization.php:171
+msgid "No hacer nada"
+msgstr "Do not do anything"
+
+#: ../../../../codigo/initialization.php:172
+msgid "Activar salidas del pulsador 1 de forma permanente"
+msgstr "Permanently turn On push-button #1 outputs"
+
+#: ../../../../codigo/initialization.php:173
+msgid "Activar salidas del pulsador 2 de forma permanente"
+msgstr "Permanently turn On push-button #2 outputs"
+
+#: ../../../../codigo/initialization.php:174
+msgid "Activar salidas del pulsador 3 de forma permanente"
+msgstr "Permanently turn On push-button #3 outputs"
+
+#: ../../../../codigo/initialization.php:175
+msgid "Activar salidas del pulsador 4 de forma permanente"
+msgstr "Permanently turn On push-button #4 outputs"
+
+#: ../../../../codigo/initialization.php:176
+msgid "Activar salidas del pulsador 5 de forma permanente"
+msgstr "Permanently turn On push-button #5 outputs"
+
+#: ../../../../codigo/initialization.php:177
+msgid "Activar salidas del pulsador 6 de forma permanente"
+msgstr "Permanently turn On push-button #6 outputs"
+
+#: ../../../../codigo/initialization.php:178
+msgid "Activar salidas del pulsador 7 de forma permanente"
+msgstr "Permanently turn On push-button #7 outputs"
+
+#: ../../../../codigo/initialization.php:179
+msgid "Activar salidas del pulsador 8 de forma permanente"
+msgstr "Permanently turn On push-button #8 outputs"
+
+#: ../../../../codigo/initialization.php:181
+msgid "Activar salidas del pulsador 1 de forma temporal"
+msgstr "Temporary turn On push-button #1 outputs"
+
+#: ../../../../codigo/initialization.php:182
+msgid "Activar salidas del pulsador 2 de forma temporal"
+msgstr "Temporary turn On push-button #2 outputs"
+
+#: ../../../../codigo/initialization.php:183
+msgid "Activar salidas del pulsador 3 de forma temporal"
+msgstr "Temporary turn On push-button #3 outputs"
+
+#: ../../../../codigo/initialization.php:184
+msgid "Activar salidas del pulsador 4 de forma temporal"
+msgstr "Temporary turn On push-button #4 outputs"
+
+#: ../../../../codigo/initialization.php:185
+msgid "Activar salidas del pulsador 5 de forma temporal"
+msgstr "Temporary turn On push-button #5 outputs"
+
+#: ../../../../codigo/initialization.php:186
+msgid "Activar salidas del pulsador 6 de forma temporal"
+msgstr "Temporary turn On push-button #6 outputs"
+
+#: ../../../../codigo/initialization.php:187
+msgid "Activar salidas del pulsador 7 de forma temporal"
+msgstr "Temporary turn On push-button #7 outputs"
+
+#: ../../../../codigo/initialization.php:188
+msgid "Activar salidas del pulsador 8 de forma temporal"
+msgstr "Temporary turn On push-button #8 outputs"
+
+#: ../../../../codigo/initialization.php:190
+msgid "Desactivar salidas (Desactiva el equipo)"
+msgstr "Disable All outputs. (Equipo disable)"
+
+#: ../../../../codigo/initialization.php:192
+msgid "Llamar a telefono IP"
+msgstr "Call an IP Phone"
+
+#: ../../../../codigo/initialization.php:193
+msgid "Llamar a telefono IP y activar salidas del pulsador 8 permanentemente"
+msgstr "Call an IP Phone and permanently turn on push-button #8 outputs."
+
+#: ../../../../codigo/initialization.php:198
+msgid "NULL"
+msgstr "NULL"
+
+#: ../../../../codigo/initialization.php:199
+msgid "INGRESO CORRECTO"
+msgstr "ACCESS OK"
+
+#: ../../../../codigo/initialization.php:200
+msgid "PERSONA NO REGISTRADA"
+msgstr "UNREGISTERED PERSON"
+
+#: ../../../../codigo/initialization.php:201
+msgid "APERTURA PUERTA SMS"
+msgstr "SMS DOOR OPEN"
+
+#: ../../../../codigo/initialization.php:202
+msgid "APERTURA PUERTA PULSADOR"
+msgstr "PUSH-BUTTON ACCESS"
+
+#: ../../../../codigo/initialization.php:203
+msgid "ALARMA 1"
+msgstr "ALARM 1"
+
+#: ../../../../codigo/initialization.php:204
+msgid "ALARMA 2"
+msgstr "ALARM 2"
+
+#: ../../../../codigo/initialization.php:205
+msgid "ALARMA 3"
+msgstr "ALARM 3"
+
+#: ../../../../codigo/initialization.php:206
+msgid "TAMPER"
+msgstr "TAMPER"
+
+#: ../../../../codigo/initialization.php:207
+msgid "CORTE DE ENERGIA"
+msgstr "POWER LOSS"
+
+#: ../../../../codigo/initialization.php:208
+msgid "CONFIGURACION POR CONSOLA"
+msgstr "SYSTEM CONFIG BY CONSOLE"
+
+#: ../../../../codigo/initialization.php:209
+msgid "USER ADDED"
+msgstr "USER ADDED"
+
+#: ../../../../codigo/initialization.php:210
+msgid "USER ENABLED"
+msgstr "USER ENABLED"
+
+#: ../../../../codigo/initialization.php:211
+msgid "USER DISABLED"
+msgstr "USER DISABLED"
+
+#: ../../../../codigo/initialization.php:212
+msgid "USER EDITED"
+msgstr "USER EDITED"
+
+#: ../../../../codigo/initialization.php:213
+msgid "PERSONA SIN PERMISOS SUFICIENTES"
+msgstr "NOT ENOUGH PERMISSIONS"
+
+#: ../../../../codigo/initialization.php:214
+msgid "GRABACION ACTIVADA"
+msgstr "RECORD MODE ON"
+
+#: ../../../../codigo/initialization.php:215
+msgid "GRABACION DESACTIVADA"
+msgstr "RECORD MODE OFF"
+
+#: ../../../../codigo/initialization.php:216
+msgid "HORA SINCRONIZADA"
+msgstr "DATETIME SYNC"
+
+#: ../../../../codigo/initialization.php:217
+msgid "HORA CAMBIADA"
+msgstr "TIME CHANGED"
+
+#: ../../../../codigo/initialization.php:218
+msgid "FECHA CAMBIADA"
+msgstr "DATE CHANGED"
+
+#: ../../../../codigo/initialization.php:219
+msgid "FECHA Y HORA CAMBIADAS"
+msgstr "DATE AND TIME CHANGED"
+
+#: ../../../../codigo/initialization.php:220
+msgid "PASSWORD SET"
+msgstr "PASSWORD SET"
+
+#: ../../../../codigo/initialization.php:221
+msgid "PASSWORD ENABLED"
+msgstr "PASSWORD ENABLED"
+
+#: ../../../../codigo/initialization.php:222
+msgid "PASSWORD DISABLED"
+msgstr "PASSWORD DISABLED"
+
+#: ../../../../codigo/initialization.php:223
+msgid "ALARMA EDITADA"
+msgstr "ALARM EDITED"
+
+#: ../../../../codigo/initialization.php:224
+msgid "PERSONA DESACTIVADA"
+msgstr "DISABLED PERSON"
+
+#: ../../../../codigo/initialization.php:225
+msgid "NRO SERVER CHANGED"
+msgstr "NRO SERVER CHANGED"
+
+#: ../../../../codigo/initialization.php:226
+msgid "MASTER TAG CHANGED"
+msgstr "MASTERTAG CHANGED"
+
+#: ../../../../codigo/initialization.php:227
+msgid "HOSTNAME CAMBIADO"
+msgstr "HOSTNAME CHANGED"
+
+#: ../../../../codigo/initialization.php:228
+msgid "HOSTNAME RESETEADO"
+msgstr "HOSTNAME RESTORED TO DEFAULT"
+
+#: ../../../../codigo/initialization.php:229
+msgid "IP ACSM CAMBIADA"
+msgstr "ACSM IP CHANGED"
+
+#: ../../../../codigo/initialization.php:230
+msgid "IP ACSM RESETEADA"
+msgstr "ACSM IP RESTORED TO DEFAULT"
+
+#: ../../../../codigo/initialization.php:231
+msgid "GRABACION ACTIVADA POR CONSOLA"
+msgstr "CONSOLE RECORD MODE ON"
+
+#: ../../../../codigo/initialization.php:232
+msgid "GRABACION DESACTIVADA POR CONSOLA"
+msgstr "CONSOLE RECORD MODE OFF"
+
+#: ../../../../codigo/initialization.php:233
+msgid "SE CAMBIO LA IP"
+msgstr "IP ADDRESS CHANGED"
+
+#: ../../../../codigo/initialization.php:234
+msgid "SE CAMBIO EL DNS"
+msgstr "DNS ADDRESS CHANGED"
+
+#: ../../../../codigo/initialization.php:235
+msgid "SE CAMBIO EL DEFAULT GATEWAY"
+msgstr "DEFAULT GATEWAY CHANGED"
+
+#: ../../../../codigo/initialization.php:236
+msgid "SE DESACTIVO DHCP"
+msgstr "DHCP DISABLED"
+
+#: ../../../../codigo/initialization.php:237
+msgid "SE ACTIVO DHCP"
+msgstr "DHCP ENABLED"
+
+#: ../../../../codigo/initialization.php:238
+msgid "PERSONA FUERA DE HORARIO"
+msgstr "OUT OF TIME SCHEDULE"
+
+#: ../../../../codigo/initialization.php:239
+msgid "SE RESETEO LA CONFIGURACION DESDE EL ACSM"
+msgstr "ACSM RESET CONFIG"
+
+#: ../../../../codigo/initialization.php:240
+msgid "SE RESETEO LA CONFIGURACION DESDE LA CONSOLA"
+msgstr "CONSOLE RESET CONFIG"
+
+#: ../../../../codigo/initialization.php:241
+msgid "SE BORRARON TODOS LOS USUARIOS DESDE EL SERVER"
+msgstr "ACSM CLEAR DATA"
+
+#: ../../../../codigo/initialization.php:242
+msgid "SE BORRARON TODOS LOS USUARIOS DESDE LA CONSOLA"
+msgstr "CONSOLE CLEAR DATA"
+
+#: ../../../../codigo/initialization.php:243
+msgid "SYNC USUARIOS AGREGADOS"
+msgstr "SYNC USERS ADDED"
+
+#: ../../../../codigo/initialization.php:244
+msgid "SYNC USUARIOS ACTUALIZADOS"
+msgstr "SYNC USERS UPDATED"
+
+#: ../../../../codigo/initialization.php:245
+msgid "SYNC LECTORES ACTUALIZADOS"
+msgstr "SYNC INPUTS UPDATED"
+
+#: ../../../../codigo/initialization.php:246
+msgid "SYNC TEMPORIZADORES ACTUALIZADOS"
+msgstr "SYNC TIMERS UPDATED"
+
+#: ../../../../codigo/initialization.php:247
+msgid "SYNC ALARMAS EDITADAS"
+msgstr "SYNC ALARMS UPDATED"
+
+#: ../../../../codigo/initialization.php:248
+msgid "SYNC PULSADORES ACTUALIZADOS"
+msgstr "SYNC PUSH-BUTTONS UPDATED"
+
+#: ../../../../codigo/initialization.php:249
+msgid "GATEWAY ACTIVADO"
+msgstr "GATEWAY DISABLED"
+
+#: ../../../../codigo/initialization.php:250
+msgid "GATEWAY DESACTIVADO"
+msgstr "GATEWAY ENABLED"
+
+#: ../../../../codigo/initialization.php:251
+msgid "SE PERDIO LA CONEXION CON EL ACSM"
+msgstr "ACSM CONNECTION LOST"
+
+#: ../../../../codigo/initialization.php:252
+msgid "REINICIO GATEWAY"
+msgstr "GATEWAY REBOOTED"
+
+#: ../../../../codigo/initialization.php:257
+msgid "Email"
+msgstr "Email"
+
+#: ../../../../codigo/initialization.php:258
+msgid "SMS"
+msgstr "SMS"
+
+#: ../../../../codigo/initialization.php:259
+msgid "Llamada IP"
+msgstr "IP Call"
+
+#: ../../../../codigo/initialization.php:263
+msgid "Aviso"
+msgstr "Message"
+
+#: ../../../../codigo/initialization.php:264
+#: ../../../../codigo/templates/not_contenido_cre.html.php:45
+msgid "Reporte"
+msgstr "Report"
+
+#: ../../../../codigo/initialization.php:268
+msgid "Dia"
+msgstr "Day"
+
+#: ../../../../codigo/initialization.php:269
+msgid "Semana"
+msgstr "Week"
+
+#: ../../../../codigo/initialization.php:270
+msgid "Quincena"
+msgstr "Fortnight"
+
+#: ../../../../codigo/initialization.php:271
+msgid "Mes"
+msgstr "Month"
+
+#: ../../../../codigo/initialization.php:272
+msgid "Año"
+msgstr "Year"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Enero"
+msgstr "January"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Febrero"
+msgstr "Frebrary"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Marzo"
+msgstr "March"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Abril"
+msgstr "April"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Mayo"
+msgstr "May"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Junio"
+msgstr "June"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Julio"
+msgstr "July"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Agosto"
+msgstr "August"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Septiembre"
+msgstr "September"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Octubre"
+msgstr "October"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Noviembre"
+msgstr "November"
+
+#: ../../../../codigo/initialization.php:280
+msgid "Diciembre"
+msgstr "December"
+
+#: ../../../../codigo/clases/acciones_acsm_o.class.php:49
+#: ../../../../codigo/clases/acciones_acsm_o.class.php:58
+#: ../../../../codigo/clases/config_o.class.php:91
+#: ../../../../codigo/clases/config_o.class.php:100
+msgid "Se deben ingresar valores numéricos únicamente."
+msgstr "Only numeric values admitted."
+
+#: ../../../../codigo/clases/acciones_acsm_o.class.php:53
+#: ../../../../codigo/clases/config_o.class.php:95
+msgid "Valor ingresado incorrecto"
+msgstr "Wrong value"
+
+#: ../../../../codigo/clases/acciones_acsm_o.class.php:62
+msgid "Valor ingresado incorrecto, se admiten entre los 5 a 25 renglones "
+msgstr "Wrong value, from 5 to 25 lines admitted"
+
+#: ../../../../codigo/clases/alarmatipo_o.class.php:20
+#: ../../../../codigo/clases/alarmatipo_o.class.php:24
+#: ../../../../codigo/clases/controlpersonal_o.class.php:29
+#: ../../../../codigo/clases/controlpersonal_o.class.php:33
+#: ../../../../codigo/clases/logs_equipo_o.class.php:49
+#: ../../../../codigo/clases/logs_equipo_o.class.php:53
+#: ../../../../codigo/clases/logs_web_o.class.php:38
+#: ../../../../codigo/clases/logs_web_o.class.php:42
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:47
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:51
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:57
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:61
+#: ../../../../codigo/clases/notificaciones_o.class.php:32
+#: ../../../../codigo/clases/notificaciones_o.class.php:36
+#: ../../../../codigo/clases/persona_o.class.php:88
+#: ../../../../codigo/clases/persona_o.class.php:92
+#: ../../../../codigo/clases/sync_o.class.php:52
+#: ../../../../codigo/clases/sync_o.class.php:56
+#: ../../../../codigo/clases/usuario_o.class.php:70
+#: ../../../../codigo/clases/usuario_o.class.php:74
+#: ../../../../codigo/clases/zona_o.class.php:44
+#: ../../../../codigo/clases/zona_o.class.php:48
+#: ../../../../codigo/libs/helpers/valida.class.php:33
+#: ../../../../codigo/libs/helpers/valida.class.php:37
+msgid "Debe seleccionar un"
+msgstr "You must select an"
+
+#: ../../../../codigo/clases/alarmatipo_o.class.php:58
+#: ../../../../codigo/clases/dispositivotipo_o.class.php:35
+msgid "Debe proporcionar el detalle de alarma."
+msgstr "You must enter the alarm Name."
+
+#: ../../../../codigo/clases/alarmatipo_o.class.php:60
+#: ../../../../codigo/clases/dispositivotipo_o.class.php:37
+#: ../../../../codigo/clases/notificaciones_grupos_o.class.php:44
+#: ../../../../codigo/clases/rol_o.class.php:37
+#: ../../../../codigo/clases/zonatipo_o.class.php:40
+msgid "El detalle es demasiado corto."
+msgstr "The Name is too short."
+
+#: ../../../../codigo/clases/alarmatipo_o.class.php:62
+#: ../../../../codigo/clases/dispositivotipo_o.class.php:39
+#: ../../../../codigo/clases/notificaciones_grupos_o.class.php:46
+#: ../../../../codigo/clases/zonatipo_o.class.php:42
+msgid "El detalle no debe superar los 255 caracteres."
+msgstr "The name must be less than 255 characters."
+
+#: ../../../../codigo/clases/alarmatipo_o.class.php:64
+#: ../../../../codigo/clases/dispositivotipo_o.class.php:41
+#: ../../../../codigo/clases/notificaciones_grupos_o.class.php:48
+#: ../../../../codigo/clases/rol_o.class.php:41
+#: ../../../../codigo/clases/zonatipo_o.class.php:44
+msgid "El detalle"
+msgstr "The Name"
+
+#: ../../../../codigo/clases/controlpersonal_o.class.php:58
+#: ../../../../codigo/includes/menu.inc.php:44
+msgid "Periféricos"
+msgstr "Devices"
+
+#: ../../../../codigo/clases/controlpersonal_o.class.php:81
+msgid "Estos valores ya fueron asignados."
+msgstr "This value has already been asigned."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:54
+#: ../../../../codigo/clases/equipo_o.class.php:67
+#: ../../../../codigo/clases/logs_equipo_o.class.php:37
+#: ../../../../codigo/clases/logs_web_o.class.php:26
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:58
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:44
+#: ../../../../codigo/clases/notificaciones_o.class.php:43
+#: ../../../../codigo/clases/persona_o.class.php:75
+#: ../../../../codigo/clases/persona_o.class.php:118
+#: ../../../../codigo/clases/sync_o.class.php:41
+#: ../../../../codigo/clases/usuario_o.class.php:59
+#: ../../../../codigo/libs/helpers/valida.class.php:14
+msgid "Debe proporcionar"
+msgstr "You must enter"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:56
+#: ../../../../codigo/clases/dispositivo_o.class.php:58
+#: ../../../../codigo/clases/equipo_o.class.php:69
+#: ../../../../codigo/clases/equipo_o.class.php:71
+#: ../../../../codigo/clases/logs_equipo_o.class.php:39
+#: ../../../../codigo/clases/logs_equipo_o.class.php:41
+#: ../../../../codigo/clases/logs_web_o.class.php:28
+#: ../../../../codigo/clases/logs_web_o.class.php:30
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:60
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:62
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:64
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:46
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:48
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:50
+#: ../../../../codigo/clases/notificaciones_o.class.php:45
+#: ../../../../codigo/clases/notificaciones_o.class.php:47
+#: ../../../../codigo/clases/notificaciones_o.class.php:49
+#: ../../../../codigo/clases/persona_o.class.php:77
+#: ../../../../codigo/clases/persona_o.class.php:79
+#: ../../../../codigo/clases/persona_o.class.php:81
+#: ../../../../codigo/clases/sync_o.class.php:43
+#: ../../../../codigo/clases/sync_o.class.php:45
+#: ../../../../codigo/clases/usuario_o.class.php:61
+#: ../../../../codigo/clases/usuario_o.class.php:63
+#: ../../../../codigo/libs/helpers/valida.class.php:16
+#: ../../../../codigo/libs/helpers/valida.class.php:18
+msgid "especificad"
+msgstr "specified"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:56
+#: ../../../../codigo/clases/equipo_o.class.php:69
+#: ../../../../codigo/clases/logs_equipo_o.class.php:39
+#: ../../../../codigo/clases/logs_web_o.class.php:28
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:60
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:46
+#: ../../../../codigo/clases/notificaciones_o.class.php:45
+#: ../../../../codigo/clases/persona_o.class.php:77
+#: ../../../../codigo/clases/sync_o.class.php:43
+#: ../../../../codigo/clases/usuario_o.class.php:61
+#: ../../../../codigo/libs/helpers/valida.class.php:16
+msgid "es demasiado corto."
+msgstr "is too short"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:58
+#: ../../../../codigo/clases/logs_equipo_o.class.php:41
+#: ../../../../codigo/clases/logs_web_o.class.php:30
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:62
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:48
+#: ../../../../codigo/clases/notificaciones_o.class.php:47
+#: ../../../../codigo/clases/persona_o.class.php:79
+#: ../../../../codigo/clases/sync_o.class.php:45
+#: ../../../../codigo/clases/usuario_o.class.php:63
+#: ../../../../codigo/libs/helpers/valida.class.php:18
+msgid "no debe superar los"
+msgstr "must be less than"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:58
+#: ../../../../codigo/clases/logs_equipo_o.class.php:41
+#: ../../../../codigo/clases/logs_web_o.class.php:30
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:62
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:48
+#: ../../../../codigo/clases/notificaciones_o.class.php:47
+#: ../../../../codigo/clases/persona_o.class.php:79
+#: ../../../../codigo/clases/sync_o.class.php:45
+#: ../../../../codigo/clases/usuario_o.class.php:63
+#: ../../../../codigo/libs/helpers/valida.class.php:18
+msgid "caracteres."
+msgstr "characters."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:65
+#: ../../../../codigo/clases/dispositivo_o.class.php:69
+msgid "Debe seleccione un"
+msgstr "You must select a"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:84
+#: ../../../../codigo/templates/dispositivo_cre.html.php:29
+#: ../../../../codigo/templates/dispositivo_mos.html.php:25
+msgid "Tipo de Periférico"
+msgstr "Device Type"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:124
+#: ../../../../codigo/templates/dispositivo.html.php:25
+#: ../../../../codigo/templates/dispositivo_cre.html.php:65
+#: ../../../../codigo/templates/dispositivo_mos.html.php:49
+#: ../../../../codigo/templates/zona_x_equipo.html.php:33
+msgid "Descripción del Periférico"
+msgstr "Device Name"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:124
+#: ../../../../codigo/clases/logs_equipo_o.class.php:62
+#: ../../../../codigo/clases/logs_web_o.class.php:51
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:70
+#: ../../../../codigo/clases/usuario_o.class.php:183
+#: ../../../../codigo/libs/helpers/valida.class.php:52
+msgid "La"
+msgstr "The"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:126
+msgid "La Descripción del Periférico"
+msgstr "The Device name"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:126
+#: ../../../../codigo/clases/equipo_o.class.php:90
+#: ../../../../codigo/clases/equipo_o.class.php:118
+#: ../../../../codigo/clases/equipo_o.class.php:132
+#: ../../../../codigo/clases/notificaciones_grupos_o.class.php:48
+#: ../../../../codigo/clases/permiso_o.class.php:46
+#: ../../../../codigo/clases/persona_o.class.php:156
+#: ../../../../codigo/clases/persona_o.class.php:237
+#: ../../../../codigo/clases/persona_o.class.php:251
+#: ../../../../codigo/clases/rol_o.class.php:41
+#: ../../../../codigo/clases/usuariotipo_o.class.php:61
+#: ../../../../codigo/clases/usuariotipo_o.class.php:69
+#: ../../../../codigo/clases/usuario_o.class.php:156
+#: ../../../../codigo/clases/usuario_o.class.php:172
+#: ../../../../codigo/clases/zonatipo_o.class.php:44
+msgid "ya existe."
+msgstr "already exists."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:147
+#: ../../../../codigo/templates/dispositivo_cre.html.php:81
+msgid "Temporizador"
+msgstr "Timer"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:211
+msgid "Debe por lo menos seleccionar algún periférico."
+msgstr "You must select one Device at least."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:213
+msgid "Debe por lo menos seleccionar un Lector o un Pulsador."
+msgstr "You must select one Reader or Push-button at least."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:215
+msgid "Debe por lo menos seleccionar un Salida."
+msgstr "You must select an ouput."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:217
+msgid "Ya hay un periférico cargado con esta configuración en el equipo."
+msgstr "There is already a Device with the same configuration in the Equipo."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:217
+#: ../../../../codigo/clases/dispositivo_o.class.php:219
+#: ../../../../codigo/clases/dispositivo_o.class.php:221
+#: ../../../../codigo/clases/dispositivo_o.class.php:223
+#: ../../../../codigo/clases/dispositivo_o.class.php:225
+msgid "En"
+msgstr "At"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:217
+#: ../../../../codigo/clases/dispositivo_o.class.php:219
+#: ../../../../codigo/clases/dispositivo_o.class.php:221
+#: ../../../../codigo/clases/dispositivo_o.class.php:223
+#: ../../../../codigo/clases/dispositivo_o.class.php:225
+#: ../../../../codigo/includes/menu.inc.php:49
+#: ../../../../codigo/templates/dispositivo.html.php:6
+msgid "Listado de Periféricos"
+msgstr "Devices"
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:217
+#: ../../../../codigo/clases/dispositivo_o.class.php:219
+#: ../../../../codigo/clases/dispositivo_o.class.php:221
+#: ../../../../codigo/clases/dispositivo_o.class.php:223
+#: ../../../../codigo/clases/dispositivo_o.class.php:225
+msgid "puede controlar la asignación de periféricos."
+msgstr "you can control Device asignment."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:219
+msgid "Lector asignado a otro periférico en el equipo."
+msgstr "This Reader is asigned to another Device."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:221
+msgid "No se puede superar la cantidad de Salidas del equipo."
+msgstr "Only 8 outputs avaliable."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:223
+msgid "No se puede superar la cantidad de Lectors del equipo."
+msgstr "Only 8 inputs avaliable."
+
+#: ../../../../codigo/clases/dispositivo_o.class.php:225
+msgid "No se puede superar la cantidad de Pulsadores del equipo."
+msgstr "Only 8 push-buttons avaliable."
+
+#: ../../../../codigo/clases/email_o.class.php:168
+msgid "notificaciones"
+msgstr "notifications"
+
+#: ../../../../codigo/clases/email_o.class.php:186
+msgid "Notificaciones ACSM"
+msgstr "ACSM Notifications"
+
+#: ../../../../codigo/clases/email_o.class.php:193
+msgid "Fecha:"
+msgstr "Date:"
+
+#: ../../../../codigo/clases/equipo_o.class.php:86
+msgid "El Hostname debe contener letras minúsculas."
+msgstr "Hostname must have lowercase letters."
+
+#: ../../../../codigo/clases/equipo_o.class.php:88
+msgid "El Hostname no debe contener caracteres en mayúsculas."
+msgstr "Hostname cant have uppercase letters."
+
+#: ../../../../codigo/clases/equipo_o.class.php:90
+msgid "El Hostname"
+msgstr "Hostname"
+
+#: ../../../../codigo/clases/equipo_o.class.php:118
+msgid "El Detalle"
+msgstr "Name"
+
+#: ../../../../codigo/clases/equipo_o.class.php:132
+msgid "El IP"
+msgstr "IP"
+
+#: ../../../../codigo/clases/equipo_o.class.php:149
+msgid "La Contraseña debe contener letras minúsculas."
+msgstr "Password must have lowercase letters."
+
+#: ../../../../codigo/clases/equipo_o.class.php:151
+msgid "La Contraseña no debe contener caracteres en mayúsculas."
+msgstr "Password cant have uppercase letters."
+
+#: ../../../../codigo/clases/equipo_o.class.php:153
+#: ../../../../codigo/clases/usuario_o.class.php:183
+#: ../../../../codigo/templates/alarma_mos.html.php:43
+#: ../../../../codigo/templates/equipo_cre.html.php:36
+#: ../../../../codigo/templates/equipo_mos.html.php:45
+#: ../../../../codigo/templates/layout.html_o.php:29
+#: ../../../../codigo/templates/login.html.php:14
+#: ../../../../codigo/templates/usuario_cre.html.php:53
+msgid "Contraseña"
+msgstr "Password"
+
+#: ../../../../codigo/clases/equipo_o.class.php:310
+msgid "Debe proporcionar almenos el tamper."
+msgstr "You must assign Tamper."
+
+#: ../../../../codigo/clases/equipo_o.class.php:312
+msgid ""
+"Por políticas de seguridad el tamper tiene que ser Apertura del Gabinete."
+msgstr "Tamper must be assigned to Tamper."
+
+#: ../../../../codigo/clases/equipo_o.class.php:331
+msgid "No puede haber dos o mas alarmas iguales en el mismo equipo."
+msgstr "The alarm already exists in the same equipo."
+
+#: ../../../../codigo/clases/logs_equipo_o.class.php:62
+#: ../../../../codigo/clases/logs_web_o.class.php:51
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:70
+#: ../../../../codigo/libs/helpers/valida.class.php:52
+msgid "es incorrecta."
+msgstr "is wrong."
+
+#: ../../../../codigo/clases/logs_equipo_o.class.php:93
+#: ../../../../codigo/clases/logs_web_o.class.php:86
+msgid "Fecha Inicio"
+msgstr "Start"
+
+#: ../../../../codigo/clases/logs_web_o.class.php:95
+#: ../../../../codigo/templates/logs_sync.html.php:25
+#: ../../../../codigo/templates/logs_web.html.php:18
+msgid "Estado"
+msgstr "Status"
+
+#: ../../../../codigo/clases/logs_web_o.class.php:104
+#: ../../../../codigo/templates/logs_web.html.php:19
+msgid "Pagina"
+msgstr "Page"
+
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:64
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:50
+#: ../../../../codigo/clases/notificaciones_o.class.php:49
+#: ../../../../codigo/clases/persona_o.class.php:81
+msgid "no debe contener el carácter dos puntos (:)."
+msgstr "cant have colon (:)."
+
+#: ../../../../codigo/clases/notificaciones_contenido_o.class.php:137
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:152
+#: ../../../../codigo/templates/not_contenido_cre.html.php:54
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:55
+msgid "Dispositivo"
+msgstr "Device"
+
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:105
+msgid "Diario"
+msgstr "Daily"
+
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:106
+msgid "Semanal"
+msgstr "Weekly"
+
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:107
+msgid "Quincenal"
+msgstr "Fortnightly"
+
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:108
+msgid "Mensual"
+msgstr "Monthly"
+
+#: ../../../../codigo/clases/notificaciones_disparadores_o.class.php:109
+msgid "Anual"
+msgstr "Yearly"
+
+#: ../../../../codigo/clases/notificaciones_grupos_o.class.php:42
+#: ../../../../codigo/clases/rol_o.class.php:35
+#: ../../../../codigo/clases/zonatipo_o.class.php:38
+msgid "Debe proporcionar el detalle."
+msgstr "You must enter the Name."
+
+#: ../../../../codigo/clases/notificaciones_o.class.php:77
+#: ../../../../codigo/clases/sync_o.class.php:81
+#: ../../../../codigo/templates/logs_sync.html.php:24
+#: ../../../../codigo/templates/notificaciones.html.php:16
+#: ../../../../codigo/templates/notificaciones_cre.html.php:36
+#: ../../../../codigo/templates/not_contenido.html.php:11
+#: ../../../../codigo/templates/not_contenido_cre.html.php:36
+#: ../../../../codigo/templates/not_disparadores.html.php:11
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:36
+msgid "Tipo"
+msgstr "Type"
+
+#: ../../../../codigo/clases/notificaciones_o.class.php:92
+#: ../../../../codigo/templates/notificaciones.html.php:17
+msgid "Grupo"
+msgstr "Group"
+
+#: ../../../../codigo/clases/notificaciones_o.class.php:118
+#: ../../../../codigo/templates/notificaciones.html.php:18
+#: ../../../../codigo/templates/notificaciones_cre.html.php:54
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:45
+msgid "Disparador"
+msgstr "Trigger"
+
+#: ../../../../codigo/clases/permiso_o.class.php:40
+msgid "Debe proporcionar el detalle del Permiso."
+msgstr "You must enter the Name."
+
+#: ../../../../codigo/clases/permiso_o.class.php:42
+msgid "El detalle del Permiso es demasiado corto."
+msgstr "Name is too short."
+
+#: ../../../../codigo/clases/permiso_o.class.php:44
+msgid "El detalle del Permiso no debe superar los 255 caracteres."
+msgstr "Name must be less than 255 characters."
+
+#: ../../../../codigo/clases/permiso_o.class.php:46
+msgid "El Permiso"
+msgstr "Permission"
+
+#: ../../../../codigo/clases/permiso_o.class.php:66
+msgid "Debe seleccionar un día."
+msgstr "You must select a day."
+
+#: ../../../../codigo/clases/permiso_o.class.php:84
+#: ../../../../codigo/clases/permiso_o.class.php:103
+msgid "La Hora Inicio es incorrecta."
+msgstr "Start time is wrong."
+
+#: ../../../../codigo/clases/persona_o.class.php:118
+msgid "valido."
+msgstr "valid"
+
+#: ../../../../codigo/clases/persona_o.class.php:154
+#: ../../../../codigo/templates/persona.html.php:12
+#: ../../../../codigo/templates/persona_cre.html.php:47
+#: ../../../../codigo/templates/persona_mos.html.php:39
+msgid "Legajo"
+msgstr "File"
+
+#: ../../../../codigo/clases/persona_o.class.php:156
+msgid "El Legajo"
+msgstr "File"
+
+#: ../../../../codigo/clases/persona_o.class.php:176
+#: ../../../../codigo/clases/usuario_o.class.php:109
+#: ../../../../codigo/templates/persona_cre.html.php:61
+#: ../../../../codigo/templates/persona_mos.html.php:51
+#: ../../../../codigo/templates/usuario_cre.html.php:80
+#: ../../../../codigo/templates/usuario_mos.html.php:44
+msgid "Apellido"
+msgstr "Surname"
+
+#: ../../../../codigo/clases/persona_o.class.php:195
+#: ../../../../codigo/clases/usuario_o.class.php:119
+#: ../../../../codigo/templates/persona_cre.html.php:82
+#: ../../../../codigo/templates/persona_mos.html.php:69
+#: ../../../../codigo/templates/usuario_cre.html.php:94
+#: ../../../../codigo/templates/usuario_mos.html.php:52
+msgid "Te Celular"
+msgstr "Cell Phone"
+
+#: ../../../../codigo/clases/persona_o.class.php:207
+#: ../../../../codigo/clases/usuario_o.class.php:129
+msgid "Te Personal"
+msgstr "Home Phone"
+
+#: ../../../../codigo/clases/persona_o.class.php:219
+#: ../../../../codigo/clases/usuario_o.class.php:139
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: ../../../../codigo/clases/persona_o.class.php:221
+#: ../../../../codigo/clases/usuario_o.class.php:142
+msgid "El E-mail"
+msgstr "E-mail"
+
+#: ../../../../codigo/clases/persona_o.class.php:235
+#: ../../../../codigo/clases/usuario_o.class.php:154
+#: ../../../../codigo/templates/persona_cre.html.php:68
+#: ../../../../codigo/templates/persona_mos.html.php:57
+#: ../../../../codigo/templates/usuario_cre.html.php:87
+#: ../../../../codigo/templates/usuario_mos.html.php:48
+msgid "DNI"
+msgstr "SSN"
+
+#: ../../../../codigo/clases/persona_o.class.php:237
+#: ../../../../codigo/clases/usuario_o.class.php:156
+msgid "El DNI"
+msgstr "SSN"
+
+#: ../../../../codigo/clases/persona_o.class.php:249
+msgid "TAG"
+msgstr "TAG"
+
+#: ../../../../codigo/clases/persona_o.class.php:251
+msgid "El TAG"
+msgstr "TAG"
+
+#: ../../../../codigo/clases/persona_o.class.php:260
+#: ../../../../codigo/templates/persona.html.php:14
+#: ../../../../codigo/templates/persona_cre.html.php:103
+#: ../../../../codigo/templates/persona_mos.html.php:87
+#: ../../../../codigo/templates/token-credito.html.php:31
+msgid "Token"
+msgstr "Token"
+
+#: ../../../../codigo/clases/persona_o.class.php:270
+#: ../../../../codigo/templates/persona.html.php:14
+#: ../../../../codigo/templates/persona_cre.html.php:110
+#: ../../../../codigo/templates/persona_mos.html.php:93
+msgid "Credito"
+msgstr "Credit"
+
+#: ../../../../codigo/clases/persona_o.class.php:290
+msgid "Creado por el Usuario"
+msgstr "Added by the User"
+
+#: ../../../../codigo/clases/persona_o.class.php:311
+msgid "Eliminado por el Usuario"
+msgstr "Deleted by the User"
+
+#: ../../../../codigo/clases/persona_o.class.php:452
+msgid " Error Persona - 03.00"
+msgstr " Person Error - 03.00"
+
+#: ../../../../codigo/clases/persona_o.class.php:534
+msgid " Error Persona - 03.01"
+msgstr " Person Error- 03.01"
+
+#: ../../../../codigo/clases/persona_o.class.php:552
+msgid " Error Persona - 03.02"
+msgstr " Person Error- 03.02"
+
+#: ../../../../codigo/clases/rol_o.class.php:39
+msgid "El detalle no debe superar los 50 caracteres."
+msgstr "The name must be less than 50 characters."
+
+#: ../../../../codigo/clases/sync_o.class.php:132
+msgid "Status"
+msgstr "Status"
+
+#: ../../../../codigo/clases/sync_o.class.php:143
+msgid "Answer"
+msgstr "Answer"
+
+#: ../../../../codigo/clases/sync_o.class.php:149
+msgid "ADD USER"
+msgstr "ADD USER"
+
+#: ../../../../codigo/clases/sync_o.class.php:150
+msgid "UPDATE USER"
+msgstr "UPDATE USER"
+
+#: ../../../../codigo/clases/sync_o.class.php:151
+msgid "UPDATE OUTPUTS"
+msgstr "UPDATE OUTPUTS"
+
+#: ../../../../codigo/clases/sync_o.class.php:152
+msgid "UPDATE LECTORES"
+msgstr "UPDATE LECTORES"
+
+#: ../../../../codigo/clases/sync_o.class.php:153
+msgid "UPDATE PULSADORES"
+msgstr "UPDATE PULSADORES"
+
+#: ../../../../codigo/clases/sync_o.class.php:154
+msgid "UPDATE ALARMAS"
+msgstr "UPDATE ALARMAS"
+
+#: ../../../../codigo/clases/sync_o.class.php:159
+msgid "PREPARADO"
+msgstr "PREPARADO"
+
+#: ../../../../codigo/clases/sync_o.class.php:160
+msgid "ENVIADO"
+msgstr "ENVIADO"
+
+#: ../../../../codigo/clases/sync_o.class.php:161
+msgid "COMPLETADO"
+msgstr "COMPLETADO"
+
+#: ../../../../codigo/clases/usuariotipo_o.class.php:55
+msgid "Debe proporcionar el detalle del Tipo Usuario."
+msgstr "You must enter the User Type Name."
+
+#: ../../../../codigo/clases/usuariotipo_o.class.php:57
+msgid "El detalle del Tipo Usuario es demasiado corto."
+msgstr "The Name is too short."
+
+#: ../../../../codigo/clases/usuariotipo_o.class.php:59
+msgid "El detalle del Tipo Usuario no debe superar los 255 caracteres."
+msgstr "The name must be less than 255 characters."
+
+#: ../../../../codigo/clases/usuariotipo_o.class.php:61
+msgid "El Tipo Usuario"
+msgstr "User Type"
+
+#: ../../../../codigo/clases/usuariotipo_o.class.php:67
+msgid "Debe proporcionar un código de Tipo Usuario."
+msgstr "You must enter User Type code."
+
+#: ../../../../codigo/clases/usuariotipo_o.class.php:69
+msgid "El código"
+msgstr "Code"
+
+#: ../../../../codigo/clases/usuario_o.class.php:89
+msgid "Tipo Usuario"
+msgstr "User Type"
+
+#: ../../../../codigo/clases/usuario_o.class.php:142
+msgid "no es valido."
+msgstr "not valid."
+
+#: ../../../../codigo/clases/usuario_o.class.php:172
+msgid "El usuario"
+msgstr "User"
+
+#: ../../../../codigo/clases/usuario_o.class.php:193
+msgid "La Contraseña debe contener minúsculas, mayúsculas y números."
+msgstr "Password must have lowercase, uppercase and numbers."
+
+#: ../../../../codigo/clases/usuario_o.class.php:195
+msgid "La Contraseña no coincide con su confirmación, ingresela de nuevo."
+msgstr "Passwords do not match. Please, try again."
+
+#: ../../../../codigo/clases/zonatipo_o.class.php:33
+msgid "La zona Empresa es la zona por defecto no se puede modificar"
+msgstr "You cant change the default Sector"
+
+#: ../../../../codigo/clases/zona_o.class.php:136
+msgid ""
+"En esta zona ya están asignados los dispositivos, valla a Modificar Zona "
+"para hacer cambios."
+msgstr "Devices are already in this Sector."
+
+#: ../../../../codigo/clases/zona_o.class.php:140
+msgid ""
+"En esta zona ya está asignada esta persona, valla a Modificar Zona para "
+"hacer cambios."
+msgstr "Person already assigned to this Sector."
+
+#: ../../../../codigo/includes/menu.inc.php:11
+msgid "Inico"
+msgstr "Home"
+
+#: ../../../../codigo/includes/menu.inc.php:24
+#: ../../../../codigo/templates/zona_x_equipo_cre.html.php:4
+msgid "Asignar Periféricos por Zona"
+msgstr "Asign Device to Sector"
+
+#: ../../../../codigo/includes/menu.inc.php:25
+msgid "Listado de Equipos por Zona"
+msgstr "Equipos per Sector"
+
+#: ../../../../codigo/includes/menu.inc.php:26
+#: ../../../../codigo/templates/zona_x_persona_cre.html.php:4
+msgid "Asignar Personas a Zona"
+msgstr "Asign Person to Sector"
+
+#: ../../../../codigo/includes/menu.inc.php:27
+msgid "Listado de Personas por Zona"
+msgstr "Persons per Sector"
+
+#: ../../../../codigo/includes/menu.inc.php:28
+msgid "Agregar Zonas"
+msgstr "Add Sector"
+
+#: ../../../../codigo/includes/menu.inc.php:29
+#: ../../../../codigo/templates/zona_tipo.html.php:1
+msgid "Listado de Zonas"
+msgstr "Sectors"
+
+#: ../../../../codigo/includes/menu.inc.php:34
+msgid "Equipos"
+msgstr "Equipos"
+
+#: ../../../../codigo/includes/menu.inc.php:38
+msgid "Agregar Equipo"
+msgstr "Add Equipo"
+
+#: ../../../../codigo/includes/menu.inc.php:39
+#: ../../../../codigo/templates/equipo.html.php:4
+msgid "Listado de Equipos"
+msgstr "Equipos"
+
+#: ../../../../codigo/includes/menu.inc.php:48
+msgid "Agregar Periférico"
+msgstr "Add Device"
+
+#: ../../../../codigo/includes/menu.inc.php:50
+msgid "Agregar Tipo de Periféricos"
+msgstr "Add Device Type"
+
+#: ../../../../codigo/includes/menu.inc.php:51
+msgid "Listado de Tipo de Periféricos"
+msgstr "Device Types"
+
+#: ../../../../codigo/includes/menu.inc.php:60
+msgid "Agregar Permisos"
+msgstr "Add Permissions"
+
+#: ../../../../codigo/includes/menu.inc.php:61
+#: ../../../../codigo/templates/permiso.html.php:4
+msgid "Listado de Permisos"
+msgstr "Permissions"
+
+#: ../../../../codigo/includes/menu.inc.php:66
+#: ../../../../codigo/templates/not_grupos.html.php:11
+#: ../../../../codigo/templates/not_grupos_add.html.php:32
+msgid "Personas"
+msgstr "Persons"
+
+#: ../../../../codigo/includes/menu.inc.php:70
+#: ../../../../codigo/templates/persona_cre.html.php:7
+msgid "Agregar Persona"
+msgstr "Add Person"
+
+#: ../../../../codigo/includes/menu.inc.php:71
+msgid "Listado de Personas"
+msgstr "Persons"
+
+#: ../../../../codigo/includes/menu.inc.php:72
+#: ../../../../codigo/templates/rol_cre.html.php:7
+msgid "Agregar Grupo"
+msgstr "Add Role"
+
+#: ../../../../codigo/includes/menu.inc.php:73
+#: ../../../../codigo/templates/grupo.html.php:1
+msgid "Listado de Roles"
+msgstr "Roles"
+
+#: ../../../../codigo/includes/menu.inc.php:74
+#: ../../../../codigo/templates/token-credito.html.php:5
+msgid "Agregar Créditos"
+msgstr "Add Credit"
+
+#: ../../../../codigo/includes/menu.inc.php:83
+msgid "Agregar Alarma"
+msgstr "Add Alarm"
+
+#: ../../../../codigo/includes/menu.inc.php:84
+msgid "Listado Alarmas"
+msgstr "Alarms"
+
+#: ../../../../codigo/includes/menu.inc.php:86
+#: ../../../../codigo/templates/alarma_cre.html.php:5
+msgid "Asignar Alarmas"
+msgstr "Asign Alarms"
+
+#: ../../../../codigo/includes/menu.inc.php:91
+msgid "Usuarios"
+msgstr "Users"
+
+#: ../../../../codigo/includes/menu.inc.php:95
+msgid "Agregar Usuario"
+msgstr "Add User"
+
+#: ../../../../codigo/includes/menu.inc.php:96
+#: ../../../../codigo/templates/usuario.html.php:4
+msgid "Listado de Usuarios"
+msgstr "Users"
+
+#: ../../../../codigo/includes/menu.inc.php:106
+msgid "Agregar Notificaciones"
+msgstr "Add Notification"
+
+#: ../../../../codigo/includes/menu.inc.php:108
+msgid "Agregar Disparadores"
+msgstr "Add Trigger"
+
+#: ../../../../codigo/includes/menu.inc.php:109
+msgid "Contenidos"
+msgstr "Content"
+
+#: ../../../../codigo/includes/menu.inc.php:110
+#: ../../../../codigo/templates/not_contenido_cre.html.php:7
+msgid "Agregar Contenido"
+msgstr "Add Content"
+
+#: ../../../../codigo/includes/menu.inc.php:111
+msgid "Grupos de Personas"
+msgstr "Persons Groups"
+
+#: ../../../../codigo/includes/menu.inc.php:112
+msgid "Agregar Grupo de Personas"
+msgstr "Add Persons Group"
+
+#: ../../../../codigo/includes/menu.inc.php:117
+msgid "Reportes"
+msgstr "Reports"
+
+#: ../../../../codigo/includes/menu.inc.php:123
+msgid "Reporte por Equipo"
+msgstr "Equipo Report"
+
+#: ../../../../codigo/includes/menu.inc.php:124
+msgid "Reporte ACSM"
+msgstr "ACSM Report"
+
+#: ../../../../codigo/includes/menu.inc.php:129
+msgid "Seguimiento"
+msgstr "Attendance Management"
+
+#: ../../../../codigo/includes/menu.inc.php:133
+msgid "Asignar Lectores"
+msgstr "Asign Devices"
+
+#: ../../../../codigo/includes/menu.inc.php:134
+msgid "Entradas\\Salidas por Persona"
+msgstr "Person IN/OUT"
+
+#: ../../../../codigo/includes/menu.inc.php:143
+msgid "Logs"
+msgstr "Logs"
+
+#: ../../../../codigo/includes/menu.inc.php:147
+msgid "Logs ACSM "
+msgstr "ACSM Logs"
+
+#: ../../../../codigo/includes/menu.inc.php:148
+msgid "Logs Equipos "
+msgstr "Equipos Logs"
+
+#: ../../../../codigo/includes/menu.inc.php:149
+#: ../../../../codigo/templates/logs_sync.html.php:4
+msgid "Jobqueue"
+msgstr "Jobqueue"
+
+#: ../../../../codigo/includes/menu.inc.php:153
+msgid "Configuración"
+msgstr "Config"
+
+#: ../../../../codigo/includes/menu.inc.php:159
+msgid "Acciones Equipos"
+msgstr "Equipo Actions"
+
+#: ../../../../codigo/libs/helpers/consolahelper.class.php:30
+msgid "Parámetros erróneos consulte con su programador. Error Consola - 01.00"
+msgstr "Wrong parameters. Console Error - 1.00"
+
+#: ../../../../codigo/libs/helpers/paginadohelper.class.php:52
+#: ../../../../codigo/libs/helpers/paginadohelper.class.php:54
+msgid "Volver página"
+msgstr "Back page"
+
+#: ../../../../codigo/libs/helpers/paginadohelper.class.php:73
+#: ../../../../codigo/libs/helpers/paginadohelper.class.php:75
+msgid "Siguiente página"
+msgstr "Next page"
+
+#: ../../../../codigo/libs/helpers/paginadohelper.class.php:81
+#: ../../../../codigo/libs/helpers/paginadohelper.class.php:83
+#: ../../../../codigo/libs/helpers/paginadohelper.class.php:105
+msgid "Volver"
+msgstr "Back"
+
+#: ../../../../codigo/libs/helpers/paginadohelper.class.php:95
+#: ../../../../codigo/libs/helpers/paginadohelper.class.php:97
+#: ../../../../codigo/libs/helpers/paginadohelper.class.php:135
+msgid "Siguiente"
+msgstr "Next"
+
+#: ../../../../codigo/libs/helpers/seguridadhelper.class.php:14
+msgid "Login Incorrecto"
+msgstr "Wrong login"
+
+#: ../../../../codigo/libs/helpers/seguridadhelper.class.php:16
+#: ../../../../codigo/templates/login.html.php:20
+msgid "Login"
+msgstr "Login"
+
+#: ../../../../codigo/libs/helpers/seguridadhelper.class.php:29
+#: ../../../../codigo/libs/helpers/seguridadhelper.class.php:31
+msgid "Trataron-Entrar"
+msgstr "bad URL load"
+
+#: ../../../../codigo/libs/helpers/seguridadhelper.class.php:48
+msgid "Seguridad"
+msgstr "Security"
+
+#: ../../../../codigo/libs/helpers/seguridadhelper.class.php:65
+#: ../../../../codigo/libs/helpers/seguridadhelper.class.php:77
+msgid "logout"
+msgstr "logout"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:34
+msgid ""
+"-.Error Crítico: Ha ocurrido un problema de conexión a los datos.- Error "
+"MySql - 00.00 - "
+msgstr "-. Critical Error. Data connection problem in MySQL - 00.00 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:35
+msgid "No pudo conectarse: "
+msgstr "Cant connect:"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:38
+msgid ""
+"-.Error Crítico: No se pude acceder a la Base Datos.- Error MySql - 00.01 - "
+msgstr "-. Critical Error: Cant access Database. -Error MySQL - 00.01 - "
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:39
+msgid "No pudo conectarse:"
+msgstr "Cant connect:"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:78
+msgid "Parametros de la clase mal pasados!. - Error MySql - 00.02 -"
+msgstr "Wrong class parameters. - MySQL Error - 00.02 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:79
+msgid ""
+"MySQL Sin Error: Problemas con los parametros de la clase! - Error MySql - "
+"00.02 -"
+msgstr "Parametros de la clase mal pasados!. - Error MySql - 00.02 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:94
+msgid "No es posible ejecutar la consulta!. - Error MySql - 00.03 -"
+msgstr "Could not run query. -MySQL Error - 00.03 - "
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:95
+#: ../../../../codigo/libs/mysql/mysql.class.php:140
+#: ../../../../codigo/libs/mysql/mysql.class.php:190
+#: ../../../../codigo/libs/mysql/mysql.class.php:281
+msgid "MySQL Error: "
+msgstr "MySQL Error: "
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:98
+msgid "La consulta no devolvie registros! - Error MySql - 00.04 -"
+msgstr "No results from query. - MySQL Error - 00.04 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:123
+msgid "Parametros de la clase mal pasados!. - Error MySql - 00.05 -"
+msgstr "Wrong class parameters. - MySQL Error - 00.05 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:124
+msgid ""
+"MySQL Sin Error: Problemas con los parametros de la clase! - Error MySql - "
+"00.05 -"
+msgstr "Wrong class parameters. - MySQL Error - 00.05 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:139
+msgid "No es posible ejecutar la consulta!. - Error MySql - 00.06 -"
+msgstr "Could not run query. - Error MySql - 00.06 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:143
+msgid "La consulta no devolvie registros! - Error MySql - 00.07 -"
+msgstr "No results from query. - MySQL Error - 00.07 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:172
+msgid "Parametros de la clase mal pasados!. - Error MySql - 00.08 -"
+msgstr "Wrong class parameters. - MySQL Error - 00.08 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:173
+msgid ""
+"MySQL Sin Error: Problmas con los parametros de la clase! - Error MySql - "
+"00.08 -"
+msgstr "Wrong class parameters. - MySQL Error - 00.08 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:189
+msgid "No es posible ejecutar la insercion!. - Error MySql - 00.09 -"
+msgstr "Could not run INSERT query. - MySQL Error -00.09 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:264
+msgid "Parametros de la clase mal pasados!. - Error MySql - 00.10 -"
+msgstr "Wrong class parameters. - MySQL Error - 00.10 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:265
+msgid ""
+"MySQL Sin Error: Problmas con los parametros de la clase! - Error MySql - "
+"00.10 -"
+msgstr "Wrong class parameters. - MySQL Error - 00.10 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:280
+msgid "No se han podido modificar los datos. - Error MySql - 00.11 -"
+msgstr "Could not run UPDATE query. - Error MySQL - 00.11 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:303
+msgid "No puede Borrar - Error MySql - 00.12 -"
+msgstr "Could not run DELETE query. - MySQL Error -00.12 - "
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:304
+#: ../../../../codigo/libs/mysql/mysql.class.php:314
+msgid "MySQL Error:"
+msgstr "MySQL Error:"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:304
+#: ../../../../codigo/libs/mysql/mysql.class.php:314
+msgid "Error MySql - 00.12 -"
+msgstr "MySQL Error - 00.12 -"
+
+#: ../../../../codigo/libs/mysql/mysql.class.php:313
+msgid "No puede Ejecutar - Error MySql - 00.13 -"
+msgstr "Could not run. - MySQL Error 00.13 - "
+
+#: ../../../../codigo/templates/acciones_acsm.html.php:4
+#: ../../../../codigo/templates/acciones_equipos.html.php:4
+#: ../../../../codigo/templates/alarma_cre.html.php:18
+#: ../../../../codigo/templates/alarma_tipo_cre.html.php:18
+#: ../../../../codigo/templates/config.html.php:4
+#: ../../../../codigo/templates/dispositivo_cre.html.php:18
+#: ../../../../codigo/templates/dispositivo_tipo_cre.html.php:18
+#: ../../../../codigo/templates/equipo_cre.html.php:18
+#: ../../../../codigo/templates/notificaciones_cre.html.php:18
+#: ../../../../codigo/templates/not_contenido_cre.html.php:18
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:18
+#: ../../../../codigo/templates/not_grupos_add.html.php:16
+#: ../../../../codigo/templates/not_grupos_cre.html.php:18
+#: ../../../../codigo/templates/permiso_cre.html.php:18
+#: ../../../../codigo/templates/persona_cre.html.php:18
+#: ../../../../codigo/templates/usuario_cre.html.php:18
+#: ../../../../codigo/templates/zona_tipo_cre.html.php:18
+#: ../../../../codigo/templates/zona_x_persona_cre.html.php:9
+msgid "Errores"
+msgstr "Errors"
+
+#: ../../../../codigo/templates/acciones_acsm.html.php:15
+#: ../../../../codigo/templates/acciones_equipos.html.php:17
+msgid "Confirmación"
+msgstr "Confirm"
+
+#: ../../../../codigo/templates/acciones_acsm.html.php:17
+#: ../../../../codigo/templates/acciones_equipos.html.php:19
+#: ../../../../codigo/templates/equipo_mos.html.php:138
+msgid "Ingrese su contraseña de usuario"
+msgstr "Write your user password"
+
+#: ../../../../codigo/templates/acciones_acsm.html.php:29
+#: ../../../../codigo/templates/acciones_equipos.html.php:38
+#: ../../../../codigo/templates/alarma_tipo.html.php:9
+#: ../../../../codigo/templates/dispositivo.html.php:27
+#: ../../../../codigo/templates/dispositivo_tipo.html.php:8
+#: ../../../../codigo/templates/equipo.html.php:19
+#: ../../../../codigo/templates/permiso.html.php:14
+#: ../../../../codigo/templates/persona.html.php:18
+#: ../../../../codigo/templates/grupo.html.php:8
+#: ../../../../codigo/templates/usuario.html.php:17
+#: ../../../../codigo/templates/zona_tipo.html.php:8
+#: ../../../../codigo/templates/zona_x_persona.html.php:29
+msgid "Opciones"
+msgstr "Options"
+
+#: ../../../../codigo/templates/acciones_acsm.html.php:30
+#: ../../../../codigo/templates/acciones_equipos.html.php:39
+#: ../../../../codigo/templates/notificaciones.html.php:20
+#: ../../../../codigo/templates/not_contenido.html.php:12
+#: ../../../../codigo/templates/not_disparadores.html.php:13
+#: ../../../../codigo/templates/not_grupos.html.php:12
+msgid "Acciones"
+msgstr "Actions"
+
+#: ../../../../codigo/templates/acciones_acsm.html.php:34
+msgid "Resetear Base de Datos"
+msgstr "Reset DB to default"
+
+#: ../../../../codigo/templates/acciones_acsm.html.php:38
+msgid "Re-sincronizar Personas"
+msgstr "Re-Sync Persons"
+
+#: ../../../../codigo/templates/acciones_acsm.html.php:42
+msgid "Bloqueo de emergencia"
+msgstr "Emergency Locking"
+
+#: ../../../../codigo/templates/acciones_acsm.html.php:43
+msgid "Bloquear Equipos"
+msgstr "Lock"
+
+#: ../../../../codigo/templates/acciones_acsm.html.php:43
+msgid "Des-Bloquear Equipos"
+msgstr "UnLock"
+
+#: ../../../../codigo/templates/acciones_equipos.html.php:43
+msgid "Borrar Usuarios"
+msgstr "Delete User"
+
+#: ../../../../codigo/templates/acciones_equipos.html.php:52
+msgid "Enviar Fecha y Hora"
+msgstr "Send Date and Time"
+
+#: ../../../../codigo/templates/acciones_equipos.html.php:52
+#: ../../../../codigo/templates/acciones_equipos.html.php:55
+#: ../../../../codigo/templates/alarma_tipo_cre.html.php:51
+#: ../../../../codigo/templates/dispositivo_tipo_cre.html.php:42
+#: ../../../../codigo/templates/layout.html_o.php:30
+#: ../../../../codigo/templates/rol_cre.html.php:42
+#: ../../../../codigo/templates/zona_tipo_cre.html.php:42
+msgid "Enviar"
+msgstr "Send"
+
+#: ../../../../codigo/templates/acciones_equipos.html.php:55
+msgid "Re-enviar configuración"
+msgstr "Send Config"
+
+#: ../../../../codigo/templates/alarma.html.php:48
+#: ../../../../codigo/templates/alarma.html.php:92
+msgid "Asignar"
+msgstr "Asign"
+
+#: ../../../../codigo/templates/alarma_cre.html.php:7
+msgid "Agregar Alarmas"
+msgstr "Add Alarms"
+
+#: ../../../../codigo/templates/alarma_cre.html.php:26
+#: ../../../../codigo/templates/alarma_mos.html.php:9
+#: ../../../../codigo/templates/alarma_mos.html.php:22
+#: ../../../../codigo/templates/equipo_cre.html.php:26
+#: ../../../../codigo/templates/equipo_mos.html.php:11
+#: ../../../../codigo/templates/equipo_mos.html.php:24
+msgid "Datos del Equipo"
+msgstr "Equipo"
+
+#: ../../../../codigo/templates/alarma_cre.html.php:29
+msgid "Host"
+msgstr "Host"
+
+#: ../../../../codigo/templates/alarma_cre.html.php:50
+#: ../../../../codigo/templates/alarma_mos.html.php:52
+msgid "Alarma del Equipo"
+msgstr "Equipo Alarm"
+
+#: ../../../../codigo/templates/alarma_mos.html.php:7
+#: ../../../../codigo/templates/equipo_mos.html.php:9
+msgid "Habilitar un Equipo"
+msgstr "Equipo Enable"
+
+#: ../../../../codigo/templates/alarma_mos.html.php:25
+#: ../../../../codigo/templates/equipo.html.php:11
+#: ../../../../codigo/templates/equipo_cre.html.php:29
+#: ../../../../codigo/templates/equipo_mos.html.php:27
+msgid "Hostname"
+msgstr "Hostname"
+
+#: ../../../../codigo/templates/alarma_mos.html.php:79
+#: ../../../../codigo/templates/persona_mos.html.php:105
+msgid "Creado el día"
+msgstr "Added at"
+
+#: ../../../../codigo/templates/alarma_mos.html.php:85
+#: ../../../../codigo/templates/usuario.html.php:16
+msgid "Eliminado El"
+msgstr "Deleted at"
+
+#: ../../../../codigo/templates/alarma_mos.html.php:91
+msgid "Cadena Sync"
+msgstr "Sync Data"
+
+#: ../../../../codigo/templates/alarma_mos.html.php:102
+#: ../../../../codigo/templates/equipo_mos.html.php:136
+msgid "¿Está seguro que desea eliminar este equipo?"
+msgstr "Are you sure you want to delete this Equipo?"
+
+#: ../../../../codigo/templates/alarma_mos.html.php:118
+#: ../../../../codigo/templates/equipo_mos.html.php:120
+msgid "¿Está seguro que desea habilitar este equipo?"
+msgstr "Are you sure you want to Enable this Equipo?"
+
+#: ../../../../codigo/templates/alarma_tipo.html.php:1
+msgid "Listado de Alarmas"
+msgstr "Alarms"
+
+#: ../../../../codigo/templates/alarma_tipo.html.php:26
+#: ../../../../codigo/templates/alarma_tipo_cre.html.php:62
+msgid "No hay publicaciones para esta sección"
+msgstr "Nothing to show here."
+
+#: ../../../../codigo/templates/alarma_tipo_cre.html.php:5
+msgid "Modificar un"
+msgstr "Edit"
+
+#: ../../../../codigo/templates/alarma_tipo_cre.html.php:7
+msgid "Agregar un"
+msgstr "Add"
+
+#: ../../../../codigo/templates/alarma_tipo_cre.html.php:26
+msgid "Datos de la Alarma"
+msgstr "Alarm"
+
+#: ../../../../codigo/templates/config.html.php:1
+msgid "Listado de configuraciones"
+msgstr "System Config"
+
+#: ../../../../codigo/templates/config.html.php:37
+#: ../../../../codigo/templates/config.html.php:46
+msgid "Si"
+msgstr "Yes"
+
+#: ../../../../codigo/templates/config.html.php:37
+#: ../../../../codigo/templates/config.html.php:46
+msgid "No"
+msgstr "No"
+
+#: ../../../../codigo/templates/config.html.php:69
+msgid "Guardar"
+msgstr "Save"
+
+#: ../../../../codigo/templates/dispositivo.html.php:21
+#: ../../../../codigo/templates/dispositivo_cre.html.php:38
+#: ../../../../codigo/templates/dispositivo_mos.html.php:31
+#: ../../../../codigo/templates/zona_x_equipo.html.php:30
+msgid "Salida"
+msgstr "Output"
+
+#: ../../../../codigo/templates/dispositivo.html.php:24
+msgid "Tiempo"
+msgstr "Timer"
+
+#: ../../../../codigo/templates/dispositivo.html.php:26
+msgid "Tipo Periférico"
+msgstr "Device Type"
+
+#: ../../../../codigo/templates/dispositivo.html.php:39
+#: ../../../../codigo/templates/notificaciones.html.php:31
+#: ../../../../codigo/templates/not_contenido.html.php:23
+#: ../../../../codigo/templates/not_disparadores.html.php:23
+#: ../../../../codigo/templates/persona.html.php:32
+#: ../../../../codigo/templates/usuario.html.php:30
+msgid "Ver"
+msgstr "View"
+
+#: ../../../../codigo/templates/dispositivo_cre.html.php:5
+msgid "Modificar un Periférico"
+msgstr "Edit Device"
+
+#: ../../../../codigo/templates/dispositivo_cre.html.php:7
+msgid "Agregar un Periférico"
+msgstr "Add Device"
+
+#: ../../../../codigo/templates/dispositivo_cre.html.php:26
+#: ../../../../codigo/templates/dispositivo_mos.html.php:9
+#: ../../../../codigo/templates/dispositivo_mos.html.php:22
+msgid "Datos del Periférico"
+msgstr "Device"
+
+#: ../../../../codigo/templates/dispositivo_mos.html.php:5
+msgid "Bloquear un Periférico"
+msgstr "Disable Device"
+
+#: ../../../../codigo/templates/dispositivo_mos.html.php:7
+msgid "Habilitar un Periférico"
+msgstr "Enable Device"
+
+#: ../../../../codigo/templates/dispositivo_mos.html.php:66
+msgid "¿Está seguro que desea bloquear este Periférico?"
+msgstr "Are you sure you want to Enable this Device?"
+
+#: ../../../../codigo/templates/dispositivo_mos.html.php:82
+msgid "¿Está seguro que desea habilitar este Periférico?"
+msgstr "Are you sure you want to Enable this Device?"
+
+#: ../../../../codigo/templates/dispositivo_tipo_cre.html.php:26
+msgid "Datos del Tipo de Periférico"
+msgstr "Device Type"
+
+#: ../../../../codigo/templates/equipo.html.php:10
+msgid "Nº Versión"
+msgstr "Version"
+
+#: ../../../../codigo/templates/equipo.html.php:13
+#: ../../../../codigo/templates/equipo_cre.html.php:44
+#: ../../../../codigo/templates/equipo_cre.html.php:52
+msgid "Dirección IP"
+msgstr "IP Address"
+
+#: ../../../../codigo/templates/equipo.html.php:18
+#: ../../../../codigo/templates/persona.html.php:17
+msgid "Bloqueado"
+msgstr "Disabled"
+
+#: ../../../../codigo/templates/equipo_cre.html.php:5
+msgid "Modificar un Equipo"
+msgstr "Edit Equipo"
+
+#: ../../../../codigo/templates/equipo_cre.html.php:7
+msgid "Agregar un Equipo"
+msgstr "Add Equipo"
+
+#: ../../../../codigo/templates/equipo_cre.html.php:54
+msgid "La dirección IP se obtiene automáticamente"
+msgstr "IP address is automatically obtained."
+
+#: ../../../../codigo/templates/equipo_mos.html.php:5
+msgid "Bloquear un Equipo"
+msgstr "Disable Equipo"
+
+#: ../../../../codigo/templates/equipo_mos.html.php:7
+msgid "Eliminar un Equipo"
+msgstr "Delete Equipo"
+
+#: ../../../../codigo/templates/equipo_mos.html.php:39
+#: ../../../../codigo/templates/logs_web.html.php:16
+msgid "Ip"
+msgstr "IP"
+
+#: ../../../../codigo/templates/equipo_mos.html.php:104
+msgid "¿Está seguro que desea bloquear este equipo?"
+msgstr "Are you sure you want to Disable this Equipo?"
+
+#: ../../../../codigo/templates/inicio.html.php:2
+msgid "Ingreso Al Sistema"
+msgstr "Login"
+
+#: ../../../../codigo/templates/inicio.html.php:4
+msgid "AVAnetworks - Panel De Administración"
+msgstr "AVAnetworks - Admin Panel"
+
+#: ../../../../codigo/templates/layout.html.php:29
+msgid "AVAnetworks - AVAG-Portal"
+msgstr "AVAnetworks - AVAG-ACSM"
+
+#: ../../../../codigo/templates/layout.html.php:38
+msgid "ACSM - Panel de Administración"
+msgstr "Access Control Server Manager"
+
+#: ../../../../codigo/templates/layout.html.php:39
+#: ../../../../codigo/templates/login.html.php:27
+msgid "AVAnetworks - Panel de Administración"
+msgstr "AVAnetworks - Admin Panel"
+
+#: ../../../../codigo/templates/layout.html.php:41
+msgid "Bienvenido:"
+msgstr "Welcome: "
+
+#: ../../../../codigo/templates/layout.html.php:41
+#: ../../../../codigo/templates/layout.html_o.php:22
+msgid "Anónimo"
+msgstr "Unknown"
+
+#: ../../../../codigo/templates/layout.html.php:48
+msgid "Su Dirección IP"
+msgstr "Your IP Address"
+
+#: ../../../../codigo/templates/layout.html.php:96
+#: ../../../../codigo/templates/layout.html.php:125
+#: ../../../../codigo/templates/layout.html_o.php:88
+msgid "Nada que mostrar."
+msgstr "Nothing here"
+
+#: ../../../../codigo/templates/layout.html.php:108
+msgid "Estas usando "
+msgstr "You are using "
+
+#: ../../../../codigo/templates/layout.html.php:131
+msgid "AVANetworks - AVAG - ACSM  -  All rights reserved."
+msgstr "AVANetworks - AVAG - ACSM  -  All rights reserved."
+
+#: ../../../../codigo/templates/layout.html_o.php:22
+msgid "Bienvenido"
+msgstr "Welcome"
+
+#: ../../../../codigo/templates/layout.html_o.php:36
+msgid "Salir"
+msgstr "Logout"
+
+#: ../../../../codigo/templates/logs_equipo.html.php:7
+msgid "Listado de Logs de los Equipos"
+msgstr ""
+
+#: ../../../../codigo/templates/logs_equipo.html.php:12
+#: ../../../../codigo/templates/logs_sync.html.php:15
+#: ../../../../codigo/templates/logs_web.html.php:9
+msgid "Filtrar"
+msgstr ""
+
+#: ../../../../codigo/templates/logs_equipo.html.php:45
+msgid "Cargando los últimos logs"
+msgstr ""
+
+#: ../../../../codigo/templates/logs_equipo.html.php:57
+#: ../../../../codigo/templates/logs_equipo.html.php:64
+msgid "Errores:"
+msgstr "Errors:"
+
+#: ../../../../codigo/templates/logs_equipo.html.php:64
+msgid "ERROR, no se pudieron cargar los últimos logs"
+msgstr ""
+
+#: ../../../../codigo/templates/logs_sync.html.php:13
+msgid "Fecha"
+msgstr "Date:"
+
+#: ../../../../codigo/templates/logs_sync.html.php:22
+msgid "Hora"
+msgstr ""
+
+#: ../../../../codigo/templates/logs_sync.html.php:23
+msgid "Inicio de sync"
+msgstr ""
+
+#: ../../../../codigo/templates/logs_sync.html.php:26
+msgid "Re-Intentos"
+msgstr ""
+
+#: ../../../../codigo/templates/logs_sync.html.php:27
+msgid "Respuesta"
+msgstr ""
+
+#: ../../../../codigo/templates/logs_sync.html.php:28
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:85
+msgid "Acción"
+msgstr "Action"
+
+#: ../../../../codigo/templates/logs_web.html.php:4
+msgid "Listado ACSM"
+msgstr ""
+
+#: ../../../../codigo/templates/notificaciones.html.php:4
+msgid "Listado de Notificaciones"
+msgstr ""
+
+#: ../../../../codigo/templates/notificaciones.html.php:37
+msgid "Enviar Prueba"
+msgstr "Send"
+
+#: ../../../../codigo/templates/notificaciones_cre.html.php:5
+msgid "Modificar Notificacion"
+msgstr ""
+
+#: ../../../../codigo/templates/notificaciones_cre.html.php:7
+msgid "Agregar Notificacion"
+msgstr "Add Notification"
+
+#: ../../../../codigo/templates/notificaciones_cre.html.php:26
+msgid "Crear una nueva notificación"
+msgstr ""
+
+#: ../../../../codigo/templates/notificaciones_cre.html.php:45
+msgid "Grupo de Personas"
+msgstr "Persons Groups"
+
+#: ../../../../codigo/templates/not_contenido.html.php:4
+msgid "Listado de Contenidos"
+msgstr ""
+
+#: ../../../../codigo/templates/not_contenido_cre.html.php:5
+msgid "Modificar Contenido"
+msgstr "Edit"
+
+#: ../../../../codigo/templates/not_contenido_cre.html.php:26
+msgid "Crear un nuevo contenido"
+msgstr "Add Content"
+
+#: ../../../../codigo/templates/not_contenido_cre.html.php:90
+msgid "Intervalo del reporte"
+msgstr ""
+
+#: ../../../../codigo/templates/not_contenido_cre.html.php:99
+msgid "Mensaje"
+msgstr ""
+
+#: ../../../../codigo/templates/not_disparadores.html.php:4
+msgid "Listado de Disparadores"
+msgstr ""
+
+#: ../../../../codigo/templates/not_disparadores.html.php:12
+msgid "Horario"
+msgstr ""
+
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:5
+msgid "Modificar Disparador"
+msgstr "Edit Trigger"
+
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:7
+msgid "Agregar Disparador"
+msgstr "Add Trigger"
+
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:26
+msgid "Crear un nuevo disparador"
+msgstr "Add Trigger"
+
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:106
+msgid "Repetir"
+msgstr ""
+
+#: ../../../../codigo/templates/not_disparadores_cre.html.php:116
+msgid "Fecha y Hora de inicio"
+msgstr "Start"
+
+#: ../../../../codigo/templates/not_grupos.html.php:4
+msgid "Listado de Grupos"
+msgstr "Groups"
+
+#: ../../../../codigo/templates/not_grupos.html.php:22
+msgid "Agregar Personas"
+msgstr "Add Person"
+
+#: ../../../../codigo/templates/not_grupos.html.php:24
+msgid "Editar"
+msgstr "Edit"
+
+#: ../../../../codigo/templates/not_grupos_add.html.php:5
+#: ../../../../codigo/templates/not_grupos_cre.html.php:5
+msgid "Modificar Grupo"
+msgstr "Edit"
+
+#: ../../../../codigo/templates/not_grupos_add.html.php:7
+#: ../../../../codigo/templates/not_grupos_cre.html.php:7
+msgid "Agregar Grupo"
+msgstr "Add Group"
+
+#: ../../../../codigo/templates/not_grupos_add.html.php:24
+msgid "Agregar personas a"
+msgstr "Add Persons to"
+
+#: ../../../../codigo/templates/not_grupos_add.html.php:40
+msgid "Agregar Email"
+msgstr ""
+
+#: ../../../../codigo/templates/not_grupos_add.html.php:88
+msgid "La persona que intenta agregar, ya existe en el grupo."
+msgstr ""
+
+#: ../../../../codigo/templates/not_grupos_add.html.php:128
+msgid "Debe ingresar una dirección de Email correcta"
+msgstr ""
+
+#: ../../../../codigo/templates/not_grupos_add.html.php:132
+msgid "Debe ingresar una dirección de Email"
+msgstr ""
+
+#: ../../../../codigo/templates/not_grupos_add.html.php:140
+msgid "El email que intenta agregar, ya existe en el grupo."
+msgstr ""
+
+#: ../../../../codigo/templates/not_grupos_cre.html.php:27
+msgid "Modificar grupo"
+msgstr ""
+
+#: ../../../../codigo/templates/not_grupos_cre.html.php:29
+msgid "Crear un nuevo grupo"
+msgstr ""
+
+#: ../../../../codigo/templates/permiso.html.php:11
+msgid "Dias"
+msgstr ""
+
+#: ../../../../codigo/templates/permiso.html.php:12
+msgid "Hs. Inicio"
+msgstr ""
+
+#: ../../../../codigo/templates/permiso.html.php:13
+msgid "Hs. Fin"
+msgstr ""
+
+#: ../../../../codigo/templates/permiso_cre.html.php:5
+msgid "Modificar Permisos"
+msgstr ""
+
+#: ../../../../codigo/templates/permiso_cre.html.php:7
+msgid "Agregar Pernisos"
+msgstr ""
+
+#: ../../../../codigo/templates/permiso_cre.html.php:26
+msgid "Datos del Permisos"
+msgstr ""
+
+#: ../../../../codigo/templates/permiso_cre.html.php:36
+msgid "Días"
+msgstr ""
+
+#: ../../../../codigo/templates/permiso_cre.html.php:43
+msgid "Hora Inicio"
+msgstr "Start"
+
+#: ../../../../codigo/templates/permiso_cre.html.php:50
+msgid "Hora Fin"
+msgstr ""
+
+#: ../../../../codigo/templates/persona.html.php:10
+msgid "Nº Per."
+msgstr ""
+
+#: ../../../../codigo/templates/persona.html.php:11
+msgid "Apellido, Nombre "
+msgstr ""
+
+#: ../../../../codigo/templates/persona.html.php:12
+#: ../../../../codigo/templates/persona_cre.html.php:75
+#: ../../../../codigo/templates/persona_mos.html.php:63
+#: ../../../../codigo/templates/zona_x_persona.html.php:26
+#: ../../../../codigo/templates/zona_x_persona_cre.html.php:20
+msgid "Tag"
+msgstr ""
+
+#: ../../../../codigo/templates/persona.html.php:13
+msgid "Telefono"
+msgstr ""
+
+#: ../../../../codigo/templates/persona.html.php:13
+msgid "Celular"
+msgstr ""
+
+#: ../../../../codigo/templates/persona.html.php:15
+#: ../../../../codigo/templates/persona_cre.html.php:96
+#: ../../../../codigo/templates/persona_mos.html.php:81
+#: ../../../../codigo/templates/usuario.html.php:14
+#: ../../../../codigo/templates/usuario_cre.html.php:108
+#: ../../../../codigo/templates/usuario_mos.html.php:60
+msgid "E-mail"
+msgstr "Email"
+
+#: ../../../../codigo/templates/persona.html.php:16
+#: ../../../../codigo/templates/persona_cre.html.php:29
+#: ../../../../codigo/templates/persona_mos.html.php:27
+msgid "Permiso"
+msgstr "Permissions"
+
+#: ../../../../codigo/templates/persona_cre.html.php:5
+msgid "Modificar Persona"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_cre.html.php:26
+#: ../../../../codigo/templates/persona_mos.html.php:24
+msgid "Datos de la Persona"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_cre.html.php:89
+#: ../../../../codigo/templates/persona_mos.html.php:75
+#: ../../../../codigo/templates/usuario_cre.html.php:101
+#: ../../../../codigo/templates/usuario_mos.html.php:56
+msgid "Te Particular"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:5
+msgid "Eliminar Una Persona"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:7
+msgid "Bloquear Una Persona"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:9
+msgid "Habilitar Una Persona"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:11
+msgid "Datos De La Persona"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:99
+msgid "Creado Por"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:111
+msgid "Bloqueado Por"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:117
+msgid "Bloqueado El"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:150
+#: ../../../../codigo/templates/zona_tipo_cre.html.php:26
+#: ../../../../codigo/templates/zona_x_equipo_cre.html.php:29
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:22
+#: ../../../../codigo/templates/zona_x_persona_cre.html.php:37
+msgid "Datos de la Zona"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:162
+msgid "¿Está seguro que desea eliminar esta persona?"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:178
+msgid "¿Está seguro que desea bloquear esta persona?"
+msgstr ""
+
+#: ../../../../codigo/templates/persona_mos.html.php:194
+msgid "¿Está seguro que desea habilitar esta persona?"
+msgstr ""
+
+#: ../../../../codigo/templates/rol_cre.html.php:5
+msgid "Modificar Grupo"
+msgstr ""
+
+#: ../../../../codigo/templates/rol_cre.html.php:26
+msgid "Datos del Grupo"
+msgstr ""
+
+#: ../../../../codigo/templates/token-credito.html.php:18
+msgid "Datos de Créditos"
+msgstr ""
+
+#: ../../../../codigo/templates/token-credito.html.php:26
+msgid "Si el campo esta en blanco, afectara a todas las personas"
+msgstr ""
+
+#: ../../../../codigo/templates/token-credito.html.php:43
+msgid "Importe"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario.html.php:11
+#: ../../../../codigo/templates/zona_x_persona_cre.html.php:21
+msgid "Apellido, Nombre"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario.html.php:12
+msgid "Te."
+msgstr ""
+
+#: ../../../../codigo/templates/usuario.html.php:13
+msgid "Cel."
+msgstr ""
+
+#: ../../../../codigo/templates/usuario.html.php:15
+msgid "Creado El"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario_cre.html.php:5
+msgid "Modificar un Usuario"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario_cre.html.php:7
+msgid "Agregar un Usuario"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario_cre.html.php:26
+msgid "Datos de Acceso<"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario_cre.html.php:29
+#: ../../../../codigo/templates/usuario_mos.html.php:22
+msgid "Tipo de Usuario"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario_cre.html.php:60
+msgid "Repita Contraseña"
+msgstr "Password again"
+
+#: ../../../../codigo/templates/usuario_cre.html.php:70
+#: ../../../../codigo/templates/usuario_mos.html.php:6
+#: ../../../../codigo/templates/usuario_mos.html.php:37
+msgid "Datos del Usuario"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario_mos.html.php:2
+msgid "Eliminar un Usuario"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario_mos.html.php:4
+msgid "Habilitar un Usuario"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario_mos.html.php:19
+msgid "Datos de Acceso"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario_mos.html.php:71
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:54
+msgid "¿Está seguro que desea eliminar este usuario?"
+msgstr ""
+
+#: ../../../../codigo/templates/usuario_mos.html.php:87
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:70
+msgid "¿Está seguro que desea habilitar este usuario?"
+msgstr ""
+
+#: ../../../../codigo/templates/zona_tipo_cre.html.php:5
+msgid "Modificar Zona"
+msgstr ""
+
+#: ../../../../codigo/templates/zona_tipo_cre.html.php:7
+msgid "Agregar Zona"
+msgstr "Add Sector"
+
+#: ../../../../codigo/templates/zona_x_equipo.html.php:6
+msgid "Listado de Zonas por Equipo"
+msgstr ""
+
+#: ../../../../codigo/templates/zona_x_equipo.html.php:32
+msgid "Pulsa."
+msgstr ""
+
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:5
+msgid "Eliminar Un Equipo"
+msgstr ""
+
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:7
+msgid "Habilitar Un Equipo"
+msgstr "Equipo Enable"
+
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:9
+msgid "Datos Del Equipo"
+msgstr "Equipo"
+
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:25
+msgid "Tipo Zona"
+msgstr "Sector"
+
+#: ../../../../codigo/templates/zona_x_equipo_mos.html.php:31
+msgid "Número de Salida"
+msgstr ""
+
+#: ../../../../codigo/templates/zona_x_persona.html.php:5
+msgid "Listado de Zonas por Persona"
+msgstr "Persons per Sector"
+
+#~ msgid ""
+#~ "Ya hay un periférico cargado con esta configuración en el equipo. </br > "
+#~ "En <a href=\"dispositivo.php\"><span>Listado de Periférico</span></a> "
+#~ "puede controlar la asignación de periféricos."
+#~ msgstr ""
+#~ "There is an already existent Device with the same configuration in the "
+#~ "Equipo. </br > En <a href=\"dispositivo.php\"><span>Listado de "
+#~ "Periférico</span></a> puede controlar la asignación de periféricos."
